@@ -80,6 +80,7 @@ COORDS = {
     "Sperrins – Sawel Mountain": (54.8210, -7.0370),
     "Lough Neagh – Ballyronan Wood": (54.7119, -6.5305),
     "Derrybeg dunes (Gweedore)": (55.0850, -8.3150),
+    "Rosscarbery Beach Dunes": (51.56552, -9.01579),
 }
 
 

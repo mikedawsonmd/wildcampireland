@@ -332,4 +332,9 @@ SPOTS = [
          desc="Dunes on the Gweedore shore where locals have camped for generations — Milky Way skies, with the golf clubhouse bar a 15-minute walk away.",
          src=["https://www.reddit.com/r/northernireland/comments/1mev0gb/wild_camping_spots/"],
          hike_km=0.5),
+    # ---- COMMUNITY SUBMISSIONS ----
+    dict(name="Rosscarbery Beach Dunes", county="Cork", type="beach", access="walk", lat=51.56552, lng=-9.01579,
+         desc="Sheltered pitches tucked behind the dunes on the Warren strand at Rosscarbery in West Cork. There's a sauna by the beach for a post-swim thaw, and the village around the lagoon is an easy stroll for a pint.",
+         src=["Community submission"],
+         hike_km=0.4),
 ]

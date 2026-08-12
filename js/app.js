@@ -273,7 +273,10 @@
         <a class="btn btn-secondary" href="${amaps}" target="_blank" rel="noopener"> Apple Maps</a>
       </div>
       <div class="src-links">Sourced from:
-        ${spot.src.map(u => `<a href="${u}" target="_blank" rel="noopener">${new URL(u).hostname.replace('www.','')}</a>`).join(' · ')}
+        ${spot.src.map(u => {
+          try { return `<a href="${u}" target="_blank" rel="noopener">${new URL(u).hostname.replace('www.','')}</a>`; }
+          catch { return `<span>${u}</span>`; }
+        }).join(' · ')}
       </div>`;
 
     sheet.hidden = false; backdrop.hidden = false;

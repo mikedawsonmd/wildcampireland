@@ -6,6 +6,7 @@ window.SPOTS = [
   "county": "Wicklow",
   "type": "lake",
   "access": "hike",
+  "camp": "tent",
   "lat": 53.0596,
   "lng": -6.3738,
   "desc": "The famous heart-shaped corrie lake below Tonelagee. Hike up from the Wicklow Gap road; pitch on the grassy shore and watch the sun rise over the rim.",
@@ -20,8 +21,7 @@ window.SPOTS = [
     "min": 38,
     "name": "Glenmacnass Waterfall"
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 2,
@@ -29,6 +29,7 @@ window.SPOTS = [
   "county": "Wicklow",
   "type": "lake",
   "access": "hike",
+  "camp": "tent",
   "lat": 53.078,
   "lng": -6.266,
   "desc": "Quiet ribbon lake tucked between soft green hills below Scarr. Approach from the Oldbridge side; sandy beach at the north end is a classic pitch.",
@@ -67,8 +68,7 @@ window.SPOTS = [
     "min": 50,
     "name": ""
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 3,
@@ -76,6 +76,7 @@ window.SPOTS = [
   "county": "Wicklow",
   "type": "forest",
   "access": "walk",
+  "camp": "tent",
   "lat": 52.9879,
   "lng": -6.4409,
   "desc": "Ireland's longest glacial valley. Popular grassy flats near the ford and hostel at Baravore; busy summer weekends, quieter midweek.",
@@ -89,8 +90,7 @@ window.SPOTS = [
     "min": 29,
     "name": "Baravore car park"
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 4,
@@ -98,6 +98,7 @@ window.SPOTS = [
   "county": "Wicklow",
   "type": "mountain",
   "access": "hike",
+  "camp": "tent",
   "lat": 52.9826,
   "lng": -6.4358,
   "desc": "Hanging valley above Glenmalure with waterfalls spilling down granite slabs. A short steep pull from Baravore rewards with real seclusion.",
@@ -111,8 +112,7 @@ window.SPOTS = [
     "min": 26,
     "name": "Baravore car park"
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 5,
@@ -120,6 +120,7 @@ window.SPOTS = [
   "county": "Wicklow",
   "type": "lake",
   "access": "walk",
+  "camp": "tent",
   "lat": 53.1775,
   "lng": -6.3015,
   "desc": "Moody corrie lake under Kippure, minutes from the Old Military Road. Room for a small tent; handy first-timer spot close to Dublin.",
@@ -138,8 +139,7 @@ window.SPOTS = [
     "min": 38,
     "name": "Armoury Café"
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 6,
@@ -147,6 +147,7 @@ window.SPOTS = [
   "county": "Wicklow",
   "type": "river",
   "access": "hike",
+  "camp": "tent",
   "lat": 53.155,
   "lng": -6.245,
   "desc": "Sheltered valley on the Dargle above Powerscourt Waterfall. Park at Crone Woods, cross Maulin and drop to the bridge — pitch by the river.",
@@ -175,8 +176,7 @@ window.SPOTS = [
     "min": 32,
     "name": "Mobile Cafe"
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 7,
@@ -184,6 +184,7 @@ window.SPOTS = [
   "county": "Wicklow",
   "type": "lake",
   "access": "hike",
+  "camp": "tent",
   "lat": 53.099,
   "lng": -6.263,
   "desc": "The dark 'Guinness lake' below Luggala. Camp discreetly in the valley between Lough Tay and Lough Dan — private estate, so leave zero trace.",
@@ -217,8 +218,7 @@ window.SPOTS = [
     "min": 74,
     "name": ""
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 8,
@@ -226,6 +226,7 @@ window.SPOTS = [
   "county": "Wicklow",
   "type": "forest",
   "access": "walk",
+  "camp": "tent",
   "lat": 53.0215,
   "lng": -6.1526,
   "desc": "Deep wooded gorge on the Vartry with waterfall walk. Sheltered pitches under the trees; a favourite for low-key overnights.",
@@ -259,8 +260,7 @@ window.SPOTS = [
     "min": 52,
     "name": ""
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 9,
@@ -268,6 +268,7 @@ window.SPOTS = [
   "county": "Wicklow",
   "type": "beach",
   "access": "walk",
+  "camp": "tent",
   "lat": 52.872,
   "lng": -6.053,
   "desc": "Sheltered sandy cove at the quiet end of Brittas Bay's dunes. Park and wander down a track to a windbreak of marram grass.",
@@ -301,8 +302,7 @@ window.SPOTS = [
     "min": 15,
     "name": ""
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 10,
@@ -310,6 +310,7 @@ window.SPOTS = [
   "county": "Wicklow",
   "type": "lake",
   "access": "walk",
+  "camp": "tent",
   "lat": 53.1471,
   "lng": -6.5363,
   "desc": "Little beaches along the Poulaphouca shoreline from Baltyboys car park. ESB land — arrive after 7pm, gone early, no fires.",
@@ -348,8 +349,7 @@ window.SPOTS = [
     "min": 46,
     "name": ""
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 11,
@@ -357,6 +357,7 @@ window.SPOTS = [
   "county": "Wicklow",
   "type": "mountain",
   "access": "hike",
+  "camp": "tent",
   "lat": 53.125,
   "lng": -6.244,
   "desc": "High saddle on the Wicklow Way boardwalk with huge views over Lough Tay and the Irish Sea. Exposed — pick a calm night.",
@@ -380,8 +381,7 @@ window.SPOTS = [
     "min": 41,
     "name": "Trails Cafe"
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 12,
@@ -389,6 +389,7 @@ window.SPOTS = [
   "county": "Wicklow",
   "type": "mountain",
   "access": "hike",
+  "camp": "tent",
   "lat": 52.966,
   "lng": -6.478,
   "desc": "Leinster's highest summit. High camps off the Camarahill route from Fenton's pub car park; serious weather, serious views.",
@@ -407,8 +408,7 @@ window.SPOTS = [
     "min": 78,
     "name": "Baravore car park"
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 13,
@@ -416,6 +416,7 @@ window.SPOTS = [
   "county": "Wicklow",
   "type": "river",
   "access": "walk",
+  "camp": "tent",
   "lat": 53.0645,
   "lng": -6.3371,
   "desc": "Waterfall, granite slabs and open moor at the top of the Military Road above Laragh. Easy access, wild feel.",
@@ -444,8 +445,7 @@ window.SPOTS = [
     "min": 93,
     "name": ""
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 14,
@@ -453,6 +453,7 @@ window.SPOTS = [
   "county": "Kerry",
   "type": "beach",
   "access": "walk",
+  "camp": "tent",
   "lat": 52.129,
   "lng": -10.358,
   "desc": "Long crescent of sand near Dingle with grassy dune pockets out of the wind. Village pub and shop a stroll away.",
@@ -496,8 +497,7 @@ window.SPOTS = [
     "min": 7,
     "name": "Oifig An Phoist Ceann Trá"
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 15,
@@ -505,6 +505,7 @@ window.SPOTS = [
   "county": "Kerry",
   "type": "beach",
   "access": "walk",
+  "camp": "tent",
   "lat": 52.1789,
   "lng": -10.3859,
   "desc": "Small sandy coves around Smerwick Harbour on the Dingle peninsula, backed by grass patches perfect for a small tent.",
@@ -543,8 +544,7 @@ window.SPOTS = [
     "min": 85,
     "name": "Oifig An Phoist Ceann Trá"
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 16,
@@ -552,6 +552,7 @@ window.SPOTS = [
   "county": "Kerry",
   "type": "beach",
   "access": "walk",
+  "camp": "tent",
   "lat": 52.1094,
   "lng": -10.4639,
   "desc": "Slea Head's dramatic cove framed by cliffs — Star Wars country. Grassy ledges above the strand; can be very windy.",
@@ -580,8 +581,7 @@ window.SPOTS = [
     "min": 44,
     "name": "Krugers Pub"
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 17,
@@ -589,6 +589,7 @@ window.SPOTS = [
   "county": "Kerry",
   "type": "beach",
   "access": "walk",
+  "camp": "tent",
   "lat": 52.135,
   "lng": -9.985,
   "desc": "Five kilometres of spit and dune between Dingle Bay and Castlemaine Harbour. Walk beyond the crowds and disappear behind a dune.",
@@ -632,8 +633,7 @@ window.SPOTS = [
     "min": 13,
     "name": ""
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 18,
@@ -641,6 +641,7 @@ window.SPOTS = [
   "county": "Kerry",
   "type": "island",
   "access": "hike",
+  "camp": "tent",
   "lat": 52.099,
   "lng": -10.53,
   "desc": "Boat from Dunquin, then camp above the deserted village looking back at the mainland. Seals on An Trá Bhán below. Check crossings ahead.",
@@ -664,8 +665,7 @@ window.SPOTS = [
     "min": 71,
     "name": ""
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 19,
@@ -673,6 +673,7 @@ window.SPOTS = [
   "county": "Kerry",
   "type": "beach",
   "access": "walk",
+  "camp": "tent",
   "lat": 51.7578,
   "lng": -10.124,
   "desc": "Golden sand, monastic ruins and dune hollows near Caherdaniel on the Ring of Kerry. Abbey Island is walkable at low tide.",
@@ -711,8 +712,7 @@ window.SPOTS = [
     "min": 18,
     "name": "Keatings Bar"
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 20,
@@ -720,6 +720,7 @@ window.SPOTS = [
   "county": "Kerry",
   "type": "coast",
   "access": "drive",
+  "camp": "both",
   "lat": 51.7404,
   "lng": -10.1319,
   "desc": "Quiet cul-de-sac road south of Caherdaniel with grassy lay-bys right on the water. Stunning Kenmare Bay views, superb dark skies.",
@@ -758,8 +759,7 @@ window.SPOTS = [
     "min": 37,
     "name": "Keatings Bar"
    }
-  },
-  "camp": "both"
+  }
  },
  {
   "id": 21,
@@ -767,6 +767,7 @@ window.SPOTS = [
   "county": "Kerry",
   "type": "beach",
   "access": "walk",
+  "camp": "tent",
   "lat": 51.8216,
   "lng": -10.2724,
   "desc": "Beach, pier and ruined abbey in the heart of the Kerry Dark Sky Reserve. Milky Way over the Atlantic on a clear night.",
@@ -800,8 +801,7 @@ window.SPOTS = [
     "min": 3,
     "name": ""
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 22,
@@ -809,6 +809,7 @@ window.SPOTS = [
   "county": "Kerry",
   "type": "coast",
   "access": "drive",
+  "camp": "both",
   "lat": 52.126,
   "lng": -10.1105,
   "desc": "Ruined castle above a storm beach of giant sandstone boulders. Grassy patches for tents; a dramatic, easy overnight.",
@@ -842,8 +843,7 @@ window.SPOTS = [
     "min": 61,
     "name": ""
    }
-  },
-  "camp": "both"
+  }
  },
  {
   "id": 23,
@@ -851,6 +851,7 @@ window.SPOTS = [
   "county": "Kerry",
   "type": "coast",
   "access": "drive",
+  "camp": "both",
   "lat": 52.268,
   "lng": -10.323,
   "desc": "The narrow inlet where St Brendan set sail. Flat ground by the pier under Mount Brandon's flank; big cliff walks either side.",
@@ -869,8 +870,7 @@ window.SPOTS = [
     "min": 54,
     "name": ""
    }
-  },
-  "camp": "both"
+  }
  },
  {
   "id": 24,
@@ -878,6 +878,7 @@ window.SPOTS = [
   "county": "Kerry",
   "type": "mountain",
   "access": "hike",
+  "camp": "tent",
   "lat": 52.24,
   "lng": -10.242,
   "desc": "Ireland's holiest mountain. High camps on the Faha ridge route above Cloghane give paternoster lakes and ocean views.",
@@ -906,8 +907,7 @@ window.SPOTS = [
     "min": 65,
     "name": "Siopa an Phobail"
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 25,
@@ -915,6 +915,7 @@ window.SPOTS = [
   "county": "Kerry",
   "type": "mountain",
   "access": "drive",
+  "camp": "van",
   "lat": 51.9386,
   "lng": -9.6576,
   "desc": "High pass between Kenmare and Killarney on the Ring of Kerry. Van-friendly pull-ins with views over the Gap of Dunloe country.",
@@ -933,8 +934,7 @@ window.SPOTS = [
     "min": 1,
     "name": "Moll's Gap Parking"
    }
-  },
-  "camp": "van"
+  }
  },
  {
   "id": 26,
@@ -942,6 +942,7 @@ window.SPOTS = [
   "county": "Kerry",
   "type": "trail",
   "access": "hike",
+  "camp": "tent",
   "lat": 51.98,
   "lng": -9.76,
   "desc": "Remote valley behind the Gap of Dunloe on the Kerry Way — one of the last places in Ireland to get electricity. Classic through-hiker camp.",
@@ -960,8 +961,7 @@ window.SPOTS = [
     "min": 81,
     "name": ""
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 27,
@@ -969,6 +969,7 @@ window.SPOTS = [
   "county": "Cork",
   "type": "beach",
   "access": "walk",
+  "camp": "tent",
   "lat": 51.635,
   "lng": -10.05,
   "desc": "Copper-mine village on the Beara Way with a quartz-sand beach and painted pubs. Pitches in the grass above the strand.",
@@ -1012,8 +1013,7 @@ window.SPOTS = [
     "min": 10,
     "name": ""
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 28,
@@ -1021,6 +1021,7 @@ window.SPOTS = [
   "county": "Cork",
   "type": "coast",
   "access": "drive",
+  "camp": "van",
   "lat": 51.6514,
   "lng": -9.9105,
   "desc": "Six free first-come motorhome spots by Ireland's biggest whitefish port. 24-hour public toilets nearby and great pubs (MacCarthy's).",
@@ -1054,8 +1055,7 @@ window.SPOTS = [
     "min": 1,
     "name": ""
    }
-  },
-  "camp": "van"
+  }
  },
  {
   "id": 29,
@@ -1063,6 +1063,7 @@ window.SPOTS = [
   "county": "Cork",
   "type": "trail",
   "access": "hike",
+  "camp": "tent",
   "lat": 51.609,
   "lng": -10.1566,
   "desc": "Wind-scoured end of the Beara Peninsula by the cable car to Dursey Island. Wild coastal camping on the Beara Way loop.",
@@ -1086,8 +1087,7 @@ window.SPOTS = [
     "min": 57,
     "name": "Cable-car café"
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 30,
@@ -1095,6 +1095,7 @@ window.SPOTS = [
   "county": "Waterford",
   "type": "lake",
   "access": "hike",
+  "camp": "tent",
   "lat": 52.2498,
   "lng": -7.5223,
   "desc": "One of Europe's finest corrie lakes, walled by 350m Comeragh cliffs. Steep 45-minute pull from the R676; pitch by the outflow.",
@@ -1113,8 +1114,7 @@ window.SPOTS = [
     "min": 25,
     "name": "Kilclooney Wood"
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 31,
@@ -1122,6 +1122,7 @@ window.SPOTS = [
   "county": "Waterford",
   "type": "beach",
   "access": "walk",
+  "camp": "tent",
   "lat": 52.1341,
   "lng": -7.3763,
   "desc": "Hidden Copper Coast cove near Bunmahon reached by a grassy track. Sea stacks, caves and hardly a soul.",
@@ -1155,8 +1156,7 @@ window.SPOTS = [
     "min": 11,
     "name": "Engine House Bar & Cafe"
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 32,
@@ -1164,6 +1164,7 @@ window.SPOTS = [
   "county": "Waterford",
   "type": "beach",
   "access": "drive",
+  "camp": "both",
   "lat": 51.972,
   "lng": -7.716,
   "desc": "Quiet strand north of Ardmore with parking right behind the beach and views along the cliffs. Handy van overnight.",
@@ -1197,8 +1198,7 @@ window.SPOTS = [
     "min": 13,
     "name": ""
    }
-  },
-  "camp": "both"
+  }
  },
  {
   "id": 33,
@@ -1206,6 +1206,7 @@ window.SPOTS = [
   "county": "Waterford",
   "type": "beach",
   "access": "walk",
+  "camp": "tent",
   "lat": 52.1399,
   "lng": -7.3709,
   "desc": "Surf beach on the Copper Coast backed by dunes; village chipper and pub two minutes away.",
@@ -1239,8 +1240,7 @@ window.SPOTS = [
     "min": 1,
     "name": "Engine House Bar & Cafe"
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 34,
@@ -1248,6 +1248,7 @@ window.SPOTS = [
   "county": "Tipperary",
   "type": "mountain",
   "access": "drive",
+  "camp": "both",
   "lat": 52.252,
   "lng": -7.959,
   "desc": "Hairpin pass through the Knockmealdowns ablaze with rhododendron in early summer. Park at the Vee; Bay Lough is a short walk below.",
@@ -1281,8 +1282,7 @@ window.SPOTS = [
     "min": 57,
     "name": ""
    }
-  },
-  "camp": "both"
+  }
  },
  {
   "id": 35,
@@ -1290,6 +1290,7 @@ window.SPOTS = [
   "county": "Tipperary",
   "type": "lake",
   "access": "hike",
+  "camp": "tent",
   "lat": 52.3726,
   "lng": -8.1516,
   "desc": "Lonely corrie lake tucked under Galtymore's southern cliffs. A proper hike-in earns you the whole mountain to yourself.",
@@ -1318,8 +1319,7 @@ window.SPOTS = [
     "min": 62,
     "name": ""
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 36,
@@ -1327,6 +1327,7 @@ window.SPOTS = [
   "county": "Tipperary",
   "type": "lake",
   "access": "hike",
+  "camp": "tent",
   "lat": 52.38,
   "lng": -8.105,
   "desc": "Corrie lake in the Galtees above the Glen of Aherlow, reached by forest track from Rossadrehid. Sheltered grassy shore.",
@@ -1345,8 +1346,7 @@ window.SPOTS = [
     "min": 49,
     "name": ""
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 37,
@@ -1354,6 +1354,7 @@ window.SPOTS = [
   "county": "Galway",
   "type": "beach",
   "access": "walk",
+  "camp": "tent",
   "lat": 53.381,
   "lng": -9.954,
   "desc": "Back-to-back horseshoe beaches of pure white shell sand near Roundstone. Camp in the machair between the two.",
@@ -1392,8 +1393,7 @@ window.SPOTS = [
     "min": 1,
     "name": ""
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 38,
@@ -1401,6 +1401,7 @@ window.SPOTS = [
   "county": "Galway",
   "type": "island",
   "access": "walk",
+  "camp": "tent",
   "lat": 53.5309,
   "lng": -10.1629,
   "desc": "Tidal island near Claddaghduff — drive or walk across the sand at low tide. Check tide times or enjoy an unplanned long stay.",
@@ -1444,8 +1445,7 @@ window.SPOTS = [
     "min": 32,
     "name": ""
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 39,
@@ -1453,6 +1453,7 @@ window.SPOTS = [
   "county": "Galway",
   "type": "mountain",
   "access": "hike",
+  "camp": "tent",
   "lat": 53.508,
   "lng": -9.83,
   "desc": "Raw glacial valley into the heart of the Twelve Bens. For experienced campers; rocky, boggy and utterly wild.",
@@ -1471,8 +1472,7 @@ window.SPOTS = [
     "min": 80,
     "name": ""
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 40,
@@ -1480,6 +1480,7 @@ window.SPOTS = [
   "county": "Galway",
   "type": "lake",
   "access": "walk",
+  "camp": "tent",
   "lat": 53.5252,
   "lng": -9.3051,
   "desc": "Lakeside woodland clearing on Corrib's western shore near Cong — a Reddit-shared favourite with a morning-swim spot.",
@@ -1513,8 +1514,7 @@ window.SPOTS = [
     "min": 35,
     "name": "Puddleducks Café"
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 41,
@@ -1522,6 +1522,7 @@ window.SPOTS = [
   "county": "Mayo",
   "type": "beach",
   "access": "walk",
+  "camp": "tent",
   "lat": 54.323,
   "lng": -9.826,
   "desc": "Remote north Mayo strand below the Children of Lir loop walks. Sea stacks, cliffs, and wind — bring good pegs.",
@@ -1540,8 +1541,7 @@ window.SPOTS = [
     "min": 22,
     "name": ""
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 42,
@@ -1549,6 +1549,7 @@ window.SPOTS = [
   "county": "Mayo",
   "type": "beach",
   "access": "walk",
+  "camp": "tent",
   "lat": 53.967,
   "lng": -10.1902,
   "desc": "Achill's amphitheatre cove below Croaghaun. Arrive late, leave early — it's mobbed by day, magical by night.",
@@ -1582,8 +1583,7 @@ window.SPOTS = [
     "min": 63,
     "name": "Lourdie's"
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 43,
@@ -1591,6 +1591,7 @@ window.SPOTS = [
   "county": "Mayo",
   "type": "forest",
   "access": "hike",
+  "camp": "tent",
   "lat": 54.011,
   "lng": -9.5894,
   "desc": "Ireland's only official wilderness backpacking area and a gold-tier Dark Sky Park. Camp along the Letterkeen loop near the Brogan Carroll bothy.",
@@ -1604,8 +1605,7 @@ window.SPOTS = [
     "min": 41,
     "name": ""
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 44,
@@ -1613,6 +1613,7 @@ window.SPOTS = [
   "county": "Mayo",
   "type": "beach",
   "access": "hike",
+  "camp": "tent",
   "lat": 53.656,
   "lng": -9.91,
   "desc": "White horseshoe beach south of Louisburgh framed by Mweelrea. Dune camping with Croagh Patrick on the horizon.",
@@ -1641,8 +1642,7 @@ window.SPOTS = [
     "min": 24,
     "name": ""
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 45,
@@ -1650,6 +1650,7 @@ window.SPOTS = [
   "county": "Sligo",
   "type": "coast",
   "access": "drive",
+  "camp": "both",
   "lat": 54.289,
   "lng": -8.963,
   "desc": "Ruined 13th-century tower beside one of Europe's best surf reefs. Grassy foreshore where locals and surfers camp all summer.",
@@ -1683,8 +1684,7 @@ window.SPOTS = [
     "min": 2,
     "name": ""
    }
-  },
-  "camp": "both"
+  }
  },
  {
   "id": 46,
@@ -1692,6 +1692,7 @@ window.SPOTS = [
   "county": "Sligo",
   "type": "coast",
   "access": "drive",
+  "camp": "both",
   "lat": 54.4703,
   "lng": -8.4636,
   "desc": "Big-wave headland with Classiebawn Castle and Benbulben behind. Grassy verges on the loop road; very exposed in a blow.",
@@ -1720,8 +1721,7 @@ window.SPOTS = [
     "min": 15,
     "name": ""
    }
-  },
-  "camp": "both"
+  }
  },
  {
   "id": 47,
@@ -1729,6 +1729,7 @@ window.SPOTS = [
   "county": "Donegal",
   "type": "beach",
   "access": "drive",
+  "camp": "both",
   "lat": 55.022,
   "lng": -8.405,
   "desc": "Rosses strand near Kincasslagh loved by locals. Big parking area behind the beach; Atlantic sunsets straight off the sand.",
@@ -1762,8 +1763,7 @@ window.SPOTS = [
     "min": 9,
     "name": ""
    }
-  },
-  "camp": "both"
+  }
  },
  {
   "id": 48,
@@ -1771,6 +1771,7 @@ window.SPOTS = [
   "county": "Donegal",
   "type": "beach",
   "access": "walk",
+  "camp": "tent",
   "lat": 55.1963,
   "lng": -7.5541,
   "desc": "Sheltered Inishowen cove beneath the old fort on Lough Swilly. Park up top and carry the tent down to the sand.",
@@ -1804,8 +1805,7 @@ window.SPOTS = [
     "min": 67,
     "name": "Laurentic Bar"
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 49,
@@ -1813,6 +1813,7 @@ window.SPOTS = [
   "county": "Donegal",
   "type": "beach",
   "access": "hike",
+  "camp": "tent",
   "lat": 54.666,
   "lng": -8.779,
   "desc": "Perfect horseshoe at the end of the Glencolmcille road, reached down 174 steps. Carry everything in; sunsets are worth it.",
@@ -1841,8 +1842,7 @@ window.SPOTS = [
     "min": 89,
     "name": "Byrnes Foodstore"
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 50,
@@ -1850,6 +1850,7 @@ window.SPOTS = [
   "county": "Donegal",
   "type": "beach",
   "access": "hike",
+  "camp": "tent",
   "lat": 55.196,
   "lng": -7.995,
   "desc": "Wild back strand reached through big dunes from Horn Head bridge — 25 minutes' walk keeps the crowds away entirely.",
@@ -1883,8 +1884,7 @@ window.SPOTS = [
     "min": 31,
     "name": ""
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 51,
@@ -1892,6 +1892,7 @@ window.SPOTS = [
   "county": "Donegal",
   "type": "mountain",
   "access": "hike",
+  "camp": "tent",
   "lat": 54.725,
   "lng": -8.05,
   "desc": "Granite wilderness at the start of the Bluestack Way above Lough Eske. Corrie lakes, zero crowds, proper remoteness.",
@@ -1915,8 +1916,7 @@ window.SPOTS = [
     "min": 84,
     "name": "Biddy's o'Barnes"
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 52,
@@ -1924,6 +1924,7 @@ window.SPOTS = [
   "county": "Donegal",
   "type": "coast",
   "access": "hike",
+  "camp": "tent",
   "lat": 54.6517,
   "lng": -8.7072,
   "desc": "Among Europe's highest sea cliffs. Camp back from the edge off the Pilgrim's Path for a sunset you won't forget.",
@@ -1957,8 +1958,7 @@ window.SPOTS = [
     "min": 75,
     "name": "John the miner's"
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 53,
@@ -1966,6 +1966,7 @@ window.SPOTS = [
   "county": "Down",
   "type": "lake",
   "access": "hike",
+  "camp": "tent",
   "lat": 54.1587,
   "lng": -5.9686,
   "desc": "Corrie lake under Slieve Binnian's tors in the Annalong Valley — the Mournes' classic first wild camp. Park at Carrick Little.",
@@ -1999,8 +2000,7 @@ window.SPOTS = [
     "min": 92,
     "name": "Today Local"
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 54,
@@ -2008,6 +2008,7 @@ window.SPOTS = [
   "county": "Down",
   "type": "mountain",
   "access": "hike",
+  "camp": "tent",
   "lat": 54.184,
   "lng": -5.933,
   "desc": "High saddle beside the Mourne Wall below Northern Ireland's highest peak. Watch the lights of Newcastle come on far below.",
@@ -2046,8 +2047,7 @@ window.SPOTS = [
     "min": 52,
     "name": ""
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 55,
@@ -2055,6 +2055,7 @@ window.SPOTS = [
   "county": "Laois",
   "type": "forest",
   "access": "walk",
+  "camp": "tent",
   "lat": 53.1221,
   "lng": -7.452,
   "desc": "Waterfalls on the young River Barrow with beginner-friendly wild camping along the Slieve Bloom Way. Gentle and green.",
@@ -2093,8 +2094,7 @@ window.SPOTS = [
     "min": 2,
     "name": "Slieve Bloom Way Car Park"
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 56,
@@ -2102,6 +2102,7 @@ window.SPOTS = [
   "county": "Carlow",
   "type": "trail",
   "access": "walk",
+  "camp": "tent",
   "lat": 52.491,
   "lng": -6.8964,
   "desc": "Grassy towpath camping where the Barrow turns tidal below the monastic village. Canoe-tourer and bikepacker favourite.",
@@ -2145,8 +2146,7 @@ window.SPOTS = [
     "min": 35,
     "name": "Mullicháin Cafe"
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 57,
@@ -2154,6 +2154,7 @@ window.SPOTS = [
   "county": "Leitrim",
   "type": "lake",
   "access": "drive",
+  "camp": "van",
   "lat": 54.2501,
   "lng": -8.3708,
   "desc": "Lay-by overnight on the lake of Yeats's Isle of Innisfree. An easy, scenic van stop between Sligo and Dromahair.",
@@ -2182,8 +2183,7 @@ window.SPOTS = [
     "min": 90,
     "name": "Riverbank Restaurant"
    }
-  },
-  "camp": "van"
+  }
  },
  {
   "id": 58,
@@ -2191,6 +2191,7 @@ window.SPOTS = [
   "county": "Cavan",
   "type": "lake",
   "access": "drive",
+  "camp": "van",
   "lat": 53.8115,
   "lng": -6.9486,
   "desc": "Reedy fishing lake with picnic tables and bins by the shore. Low-drama lakeside overnight in drumlin country; midges in July.",
@@ -2224,8 +2225,7 @@ window.SPOTS = [
     "min": 1,
     "name": ""
    }
-  },
-  "camp": "van"
+  }
  },
  {
   "id": 59,
@@ -2233,6 +2233,7 @@ window.SPOTS = [
   "county": "Wexford",
   "type": "beach",
   "access": "walk",
+  "camp": "tent",
   "lat": 52.1768,
   "lng": -6.83,
   "desc": "Where the Normans landed in 1170. Red sandstone headland, sheltered sand, and sunrise-to-sunset light on the Hook.",
@@ -2271,8 +2272,7 @@ window.SPOTS = [
     "min": 4,
     "name": ""
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 60,
@@ -2280,6 +2280,7 @@ window.SPOTS = [
   "county": "Wexford",
   "type": "coast",
   "access": "drive",
+  "camp": "both",
   "lat": 52.1232,
   "lng": -6.9305,
   "desc": "Beside the world's oldest working lighthouse. Van parking on the limestone shelf; whales pass in autumn.",
@@ -2313,8 +2314,7 @@ window.SPOTS = [
     "min": 1,
     "name": ""
    }
-  },
-  "camp": "both"
+  }
  },
  {
   "id": 61,
@@ -2322,6 +2322,7 @@ window.SPOTS = [
   "county": "Limerick",
   "type": "coast",
   "access": "drive",
+  "camp": "van",
   "lat": 52.5945,
   "lng": -9.2242,
   "desc": "Sleepy Shannon-estuary pier with picnic tables and evening swimmers. Ask locally and you'll be left in peace.",
@@ -2360,8 +2361,7 @@ window.SPOTS = [
     "min": 30,
     "name": ""
    }
-  },
-  "camp": "van"
+  }
  },
  {
   "id": 62,
@@ -2369,6 +2369,7 @@ window.SPOTS = [
   "county": "Cork",
   "type": "beach",
   "access": "walk",
+  "camp": "tent",
   "lat": 51.4695,
   "lng": -9.7765,
   "desc": "West Cork's finest strand, backed by a wandering dune system near Mizen Head. Cross the pontoon bridge and lose yourself behind a dune.",
@@ -2413,8 +2414,7 @@ window.SPOTS = [
     "min": 10,
     "name": ""
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 63,
@@ -2422,6 +2422,7 @@ window.SPOTS = [
   "county": "Cork",
   "type": "coast",
   "access": "hike",
+  "camp": "tent",
   "lat": 51.477,
   "lng": -9.809,
   "desc": "Medieval towers above a black lake on 100m cliffs at Mizen's wildest corner. Private farmland — ask at the farm and tread gently.",
@@ -2465,8 +2466,7 @@ window.SPOTS = [
     "min": 45,
     "name": ""
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 64,
@@ -2474,6 +2474,7 @@ window.SPOTS = [
   "county": "Cork",
   "type": "trail",
   "access": "hike",
+  "camp": "tent",
   "lat": 51.567,
   "lng": -9.663,
   "desc": "Overnight on the hilly spine of the Sheep's Head Way with Bantry Bay on one side and Dunmanus on the other. Out toward Kilcrohane and back.",
@@ -2502,8 +2503,7 @@ window.SPOTS = [
     "min": 34,
     "name": "Droumnea"
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 65,
@@ -2511,6 +2511,7 @@ window.SPOTS = [
   "county": "Cork",
   "type": "lake",
   "access": "walk",
+  "camp": "tent",
   "lat": 51.5007,
   "lng": -9.3009,
   "desc": "Europe's first marine nature reserve — a saltwater lake that glows with bioluminescence on dark summer nights. Kayak in or pitch discreetly above the shore.",
@@ -2554,8 +2555,7 @@ window.SPOTS = [
     "min": 85,
     "name": ""
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 66,
@@ -2563,6 +2563,7 @@ window.SPOTS = [
   "county": "Cork",
   "type": "forest",
   "access": "walk",
+  "camp": "tent",
   "lat": 51.8397,
   "lng": -9.3234,
   "desc": "St Finbarr's island chapel on a mirror-still lake ringed by forested crags. Camping isn't allowed in the park itself — pitch up the Keimaneigh side and walk in.",
@@ -2591,8 +2592,7 @@ window.SPOTS = [
     "min": 8,
     "name": "Cronin's Cafe"
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 67,
@@ -2600,6 +2600,7 @@ window.SPOTS = [
   "county": "Cork",
   "type": "island",
   "access": "hike",
+  "camp": "tent",
   "lat": 51.4716,
   "lng": -9.4175,
   "desc": "Ferry from Baltimore, then wander past the abbey to Silver Strand for an island night with Roaringwater Bay all around. Two pubs for the evening.",
@@ -2638,8 +2639,7 @@ window.SPOTS = [
     "min": 50,
     "name": ""
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 68,
@@ -2647,6 +2647,7 @@ window.SPOTS = [
   "county": "Cork",
   "type": "beach",
   "access": "walk",
+  "camp": "tent",
   "lat": 51.596,
   "lng": -8.862,
   "desc": "Blue Flag surf beach on its own little island near Clonakilty. Dune pockets at the quiet eastern end, away from the hotel side.",
@@ -2690,8 +2691,7 @@ window.SPOTS = [
     "min": 2,
     "name": ""
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 69,
@@ -2699,6 +2699,7 @@ window.SPOTS = [
   "county": "Down",
   "type": "mountain",
   "access": "hike",
+  "camp": "tent",
   "lat": 54.17,
   "lng": -5.905,
   "desc": "From Bloody Bridge car park a 30-minute pull leads onto Chimney Rock Mountain — sea views to the Isle of Man. Camp behind the summit boulders out of the wind.",
@@ -2733,8 +2734,7 @@ window.SPOTS = [
     "min": 32,
     "name": ""
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 70,
@@ -2742,6 +2742,7 @@ window.SPOTS = [
   "county": "Down",
   "type": "forest",
   "access": "hike",
+  "camp": "tent",
   "lat": 54.1436,
   "lng": -5.9354,
   "desc": "Pine shelter partway up the Annalong Valley — the Mournes' classic sheltered wildcamp when the tops are blowing a hoolie.",
@@ -2770,8 +2771,7 @@ window.SPOTS = [
     "min": 54,
     "name": ""
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 71,
@@ -2779,6 +2779,7 @@ window.SPOTS = [
   "county": "Down",
   "type": "forest",
   "access": "hike",
+  "camp": "tent",
   "lat": 54.105,
   "lng": -6.17,
   "desc": "Old oaks and towering conifers above Carlingford Lough; the Kodak Corner viewpoint is the money shot. Forest Service land — be discreet.",
@@ -2812,8 +2813,7 @@ window.SPOTS = [
     "min": 15,
     "name": ""
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 72,
@@ -2821,6 +2821,7 @@ window.SPOTS = [
   "county": "Antrim",
   "type": "coast",
   "access": "hike",
+  "camp": "tent",
   "lat": 55.211,
   "lng": -6.135,
   "desc": "The Causeway Coast's hidden amphitheatre below Fair Head — Scotland floats on the horizon. Park at the Casement memorial and walk down.",
@@ -2854,8 +2855,7 @@ window.SPOTS = [
     "min": 54,
     "name": ""
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 73,
@@ -2863,6 +2863,7 @@ window.SPOTS = [
   "county": "Derry",
   "type": "beach",
   "access": "walk",
+  "camp": "tent",
   "lat": 55.175,
   "lng": -6.915,
   "desc": "Seven miles of hard golden sand under Binevenagh's cliffs. Pitch between the Martello tower and the tourist complex; Mussenden Temple up the strand.",
@@ -2901,8 +2902,7 @@ window.SPOTS = [
     "min": 66,
     "name": "Spar"
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 74,
@@ -2910,6 +2910,7 @@ window.SPOTS = [
   "county": "Fermanagh",
   "type": "lake",
   "access": "hike",
+  "camp": "tent",
   "lat": 54.467,
   "lng": -7.9065,
   "desc": "Island-hopping on the Lough Erne Canoe Trail — wooded islands and shore camps under the Cliffs of Magho. Best reached by paddle.",
@@ -2933,8 +2934,7 @@ window.SPOTS = [
     "min": 10,
     "name": ""
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 75,
@@ -2942,6 +2942,7 @@ window.SPOTS = [
   "county": "Tyrone",
   "type": "mountain",
   "access": "hike",
+  "camp": "tent",
   "lat": 54.821,
   "lng": -7.037,
   "desc": "The emptiest hills in the north — bog, big skies and some of Ireland's darkest stars over the Glenelly valley. People camp here often and meet no one.",
@@ -2966,8 +2967,7 @@ window.SPOTS = [
     "min": 84,
     "name": ""
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 76,
@@ -2975,6 +2975,7 @@ window.SPOTS = [
   "county": "Derry",
   "type": "lake",
   "access": "walk",
+  "camp": "tent",
   "lat": 54.7119,
   "lng": -6.5305,
   "desc": "Waterside woodland on the biggest lake in these islands. Sunrise over the water and world-class birdlife; all shoreline is private, so ask around.",
@@ -3003,8 +3004,7 @@ window.SPOTS = [
     "min": 5,
     "name": "Ballyronan Chinese Takeaway"
    }
-  },
-  "camp": "tent"
+  }
  },
  {
   "id": 77,
@@ -3012,6 +3012,7 @@ window.SPOTS = [
   "county": "Donegal",
   "type": "beach",
   "access": "walk",
+  "camp": "tent",
   "lat": 55.085,
   "lng": -8.315,
   "desc": "Dunes on the Gweedore shore where locals have camped for generations — Milky Way skies, with the golf clubhouse bar a 15-minute walk away.",
@@ -3045,7 +3046,58 @@ window.SPOTS = [
     "min": 4,
     "name": ""
    }
-  },
-  "camp": "tent"
+  }
+ },
+ {
+  "id": 78,
+  "name": "Rosscarbery Beach Dunes",
+  "county": "Cork",
+  "type": "beach",
+  "access": "walk",
+  "camp": "tent",
+  "lat": 51.56552,
+  "lng": -9.01579,
+  "desc": "Sheltered pitches tucked behind the dunes on the Warren strand at Rosscarbery in West Cork. There's a sauna by the beach for a post-swim thaw, and the village around the lagoon is an easy stroll for a pint.",
+  "hikeKm": 0.4,
+  "src": [
+   "Community submission"
+  ],
+  "facilities": {
+   "pub": {
+    "km": 1.26,
+    "min": 20,
+    "name": "The Ocean View"
+   },
+   "shop": {
+    "km": 0.81,
+    "min": 13,
+    "name": "Spar"
+   },
+   "parking": {
+    "km": 0.15,
+    "min": 2,
+    "name": "Warren Beach"
+   },
+   "toilets": {
+    "km": 0.1,
+    "min": 2,
+    "name": ""
+   },
+   "food": {
+    "km": 0.81,
+    "min": 13,
+    "name": "Rosscarbery Fish & Chips"
+   },
+   "shower": {
+    "km": 0.1,
+    "min": 2,
+    "name": ""
+   },
+   "water": {
+    "km": 0.1,
+    "min": 2,
+    "name": ""
+   }
+  }
  }
 ];
