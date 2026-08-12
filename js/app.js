@@ -243,7 +243,7 @@
         const data = await res.json();
         imgs = Object.values(data?.query?.pages || {})
           .map(p => p.imageinfo?.[0])
-          .filter(ii => ii && /\.(jpe?g|png)$/i.test(ii.thumburl || ''))
+          .filter(ii => ii && /\.(jpe?g|png)(\?|$)/i.test(ii.thumburl || ''))
           .slice(0, 8);
         photoCache.set(spot.id, imgs);
       }
