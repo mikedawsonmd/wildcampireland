@@ -64,6 +64,22 @@ COORDS = {
     "Baginbun Beach": (52.1768, -6.8300),
     "Hook Head": (52.1232, -6.9305),
     "Kilteery Pier": (52.5945, -9.2242),
+    "Barleycove Beach dunes": (51.4695, -9.7765),
+    "Three Castle Head": (51.4770, -9.8090),
+    "Sheep's Head ridge (Seefin)": (51.5670, -9.6630),
+    "Lough Hyne": (51.5007, -9.3009),
+    "Gougane Barra": (51.8397, -9.3234),
+    "Sherkin Island": (51.4716, -9.4175),
+    "Inchydoney Beach": (51.5960, -8.8620),
+    "Chimney Rock (Bloody Bridge)": (54.1700, -5.9050),
+    "Annalong Wood": (54.1436, -5.9354),
+    "Rostrevor Forest (Kodak Corner)": (54.1050, -6.1700),
+    "Murlough Bay": (55.2110, -6.1350),
+    "Benone Beach": (55.1750, -6.9150),
+    "Lower Lough Erne (canoe trail)": (54.4670, -7.9065),
+    "Sperrins – Sawel Mountain": (54.8210, -7.0370),
+    "Lough Neagh – Ballyronan Wood": (54.7119, -6.5305),
+    "Derrybeg dunes (Gweedore)": (55.0850, -8.3150),
 }
 
 

@@ -2300,5 +2300,674 @@
     "name": ""
    }
   }
+ },
+ {
+  "id": 62,
+  "name": "Barleycove Beach dunes",
+  "county": "Cork",
+  "type": "beach",
+  "access": "walk",
+  "lat": 51.4695,
+  "lng": -9.7765,
+  "desc": "West Cork's finest strand, backed by a wandering dune system near Mizen Head. Cross the pontoon bridge and lose yourself behind a dune.",
+  "hikeKm": 0.8,
+  "src": [
+   "https://www.theirishroadtrip.com/camping-in-cork/",
+   "https://irelandindepth.com/a-guide-to-camping-in-cork-ireland/"
+  ],
+  "facilities": {
+   "parking": {
+    "km": 0.33,
+    "min": 5,
+    "name": ""
+   },
+   "pub": {
+    "km": 3.56,
+    "min": 56,
+    "name": "The Crookhaven Inn"
+   },
+   "toilets": {
+    "km": 0.63,
+    "min": 10,
+    "name": ""
+   },
+   "food": {
+    "km": 3.12,
+    "min": 49,
+    "name": "Mizen Head Cafe"
+   },
+   "shop": {
+    "km": 3.59,
+    "min": 56,
+    "name": "General Store"
+   },
+   "shower": {
+    "km": 0.63,
+    "min": 10,
+    "name": ""
+   },
+   "water": {
+    "km": 0.63,
+    "min": 10,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 63,
+  "name": "Three Castle Head",
+  "county": "Cork",
+  "type": "coast",
+  "access": "hike",
+  "lat": 51.477,
+  "lng": -9.809,
+  "desc": "Medieval towers above a black lake on 100m cliffs at Mizen's wildest corner. Private farmland — ask at the farm and tread gently.",
+  "hikeKm": 1.5,
+  "src": [
+   "https://www.westcorkdiscovered.com/blog/three-castle-head"
+  ],
+  "facilities": {
+   "parking": {
+    "km": 0.46,
+    "min": 7,
+    "name": ""
+   },
+   "pub": {
+    "km": 5.88,
+    "min": 92,
+    "name": "The Crookhaven Inn"
+   },
+   "toilets": {
+    "km": 2.89,
+    "min": 45,
+    "name": ""
+   },
+   "food": {
+    "km": 2.83,
+    "min": 44,
+    "name": "Mizen Head Cafe"
+   },
+   "shop": {
+    "km": 5.91,
+    "min": 92,
+    "name": "General Store"
+   },
+   "shower": {
+    "km": 2.89,
+    "min": 45,
+    "name": ""
+   },
+   "water": {
+    "km": 2.89,
+    "min": 45,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 64,
+  "name": "Sheep's Head ridge (Seefin)",
+  "county": "Cork",
+  "type": "trail",
+  "access": "hike",
+  "lat": 51.567,
+  "lng": -9.663,
+  "desc": "Overnight on the hilly spine of the Sheep's Head Way with Bantry Bay on one side and Dunmanus on the other. Out toward Kilcrohane and back.",
+  "hikeKm": 3.0,
+  "src": [
+   "https://www.ukclimbing.com/forums/hill_talk/wild_camp_-_cork-672420"
+  ],
+  "facilities": {
+   "pub": {
+    "km": 3.26,
+    "min": 51,
+    "name": "Eileen's Bar"
+   },
+   "shop": {
+    "km": 3.22,
+    "min": 50,
+    "name": "J.F. O'Mahony"
+   },
+   "food": {
+    "km": 3.11,
+    "min": 49,
+    "name": "The Old Creamery Café & Restaurant"
+   },
+   "parking": {
+    "km": 2.2,
+    "min": 34,
+    "name": "Droumnea"
+   }
+  }
+ },
+ {
+  "id": 65,
+  "name": "Lough Hyne",
+  "county": "Cork",
+  "type": "lake",
+  "access": "walk",
+  "lat": 51.5007,
+  "lng": -9.3009,
+  "desc": "Europe's first marine nature reserve — a saltwater lake that glows with bioluminescence on dark summer nights. Kayak in or pitch discreetly above the shore.",
+  "hikeKm": 0.4,
+  "src": [
+   "https://irelandindepth.com/a-guide-to-camping-in-cork-ireland/"
+  ],
+  "facilities": {
+   "pub": {
+    "km": 2.62,
+    "min": 41,
+    "name": "The Skibbereen Eagle"
+   },
+   "parking": {
+    "km": 0.64,
+    "min": 10,
+    "name": ""
+   },
+   "food": {
+    "km": 5.31,
+    "min": 83,
+    "name": "Dede at the Customs House"
+   },
+   "shop": {
+    "km": 5.39,
+    "min": 84,
+    "name": "Gala"
+   },
+   "toilets": {
+    "km": 2.44,
+    "min": 38,
+    "name": ""
+   },
+   "shower": {
+    "km": 5.36,
+    "min": 84,
+    "name": ""
+   },
+   "water": {
+    "km": 5.44,
+    "min": 85,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 66,
+  "name": "Gougane Barra",
+  "county": "Cork",
+  "type": "forest",
+  "access": "walk",
+  "lat": 51.8397,
+  "lng": -9.3234,
+  "desc": "St Finbarr's island chapel on a mirror-still lake ringed by forested crags. Camping isn't allowed in the park itself — pitch up the Keimaneigh side and walk in.",
+  "hikeKm": 0.8,
+  "src": [
+   "https://irelandindepth.com/a-guide-to-camping-in-cork-ireland/"
+  ],
+  "facilities": {
+   "toilets": {
+    "km": 0.31,
+    "min": 5,
+    "name": ""
+   },
+   "parking": {
+    "km": 0.32,
+    "min": 5,
+    "name": ""
+   },
+   "pub": {
+    "km": 0.5,
+    "min": 8,
+    "name": "Cronin’s Bar"
+   },
+   "food": {
+    "km": 0.51,
+    "min": 8,
+    "name": "Cronin's Cafe"
+   }
+  }
+ },
+ {
+  "id": 67,
+  "name": "Sherkin Island",
+  "county": "Cork",
+  "type": "island",
+  "access": "hike",
+  "lat": 51.4716,
+  "lng": -9.4175,
+  "desc": "Ferry from Baltimore, then wander past the abbey to Silver Strand for an island night with Roaringwater Bay all around. Two pubs for the evening.",
+  "hikeKm": 2.0,
+  "src": [
+   "https://irelandindepth.com/a-guide-to-camping-in-cork-ireland/"
+  ],
+  "facilities": {
+   "pub": {
+    "km": 1.27,
+    "min": 20,
+    "name": "Jolly Roger"
+   },
+   "parking": {
+    "km": 2.17,
+    "min": 34,
+    "name": ""
+   },
+   "food": {
+    "km": 0.88,
+    "min": 14,
+    "name": "Cafe Bruno"
+   },
+   "shop": {
+    "km": 3.31,
+    "min": 52,
+    "name": "Gala"
+   },
+   "toilets": {
+    "km": 3.22,
+    "min": 50,
+    "name": ""
+   },
+   "shower": {
+    "km": 3.22,
+    "min": 50,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 68,
+  "name": "Inchydoney Beach",
+  "county": "Cork",
+  "type": "beach",
+  "access": "walk",
+  "lat": 51.596,
+  "lng": -8.862,
+  "desc": "Blue Flag surf beach on its own little island near Clonakilty. Dune pockets at the quiet eastern end, away from the hotel side.",
+  "hikeKm": 0.5,
+  "src": [
+   "https://irelandindepth.com/a-guide-to-camping-in-cork-ireland/"
+  ],
+  "facilities": {
+   "pub": {
+    "km": 2.05,
+    "min": 32,
+    "name": "Kitty Mac’s"
+   },
+   "shop": {
+    "km": 3.19,
+    "min": 50,
+    "name": "Aldi"
+   },
+   "parking": {
+    "km": 0.07,
+    "min": 1,
+    "name": ""
+   },
+   "toilets": {
+    "km": 0.14,
+    "min": 2,
+    "name": ""
+   },
+   "food": {
+    "km": 1.83,
+    "min": 29,
+    "name": "Deasy's Harbour Bar & Seafood Restaurant"
+   },
+   "water": {
+    "km": 2.38,
+    "min": 37,
+    "name": ""
+   },
+   "shower": {
+    "km": 0.14,
+    "min": 2,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 69,
+  "name": "Chimney Rock (Bloody Bridge)",
+  "county": "Down",
+  "type": "mountain",
+  "access": "hike",
+  "lat": 54.17,
+  "lng": -5.905,
+  "desc": "From Bloody Bridge car park a 30-minute pull leads onto Chimney Rock Mountain — sea views to the Isle of Man. Camp behind the summit boulders out of the wind.",
+  "hikeKm": 2.5,
+  "src": [
+   "https://outdoorscott.com/wild-camping-northern-ireland/",
+   "https://www.reddit.com/r/northernireland/comments/1mev0gb/wild_camping_spots/"
+  ],
+  "facilities": {
+   "pub": {
+    "km": 3.35,
+    "min": 52,
+    "name": "Harbour House"
+   },
+   "shop": {
+    "km": 3.44,
+    "min": 54,
+    "name": "The Harbour Shop"
+   },
+   "food": {
+    "km": 3.37,
+    "min": 53,
+    "name": ""
+   },
+   "parking": {
+    "km": 2.08,
+    "min": 32,
+    "name": "Bloody Bridge"
+   },
+   "toilets": {
+    "km": 2.07,
+    "min": 32,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 70,
+  "name": "Annalong Wood",
+  "county": "Down",
+  "type": "forest",
+  "access": "hike",
+  "lat": 54.1436,
+  "lng": -5.9354,
+  "desc": "Pine shelter partway up the Annalong Valley — the Mournes' classic sheltered wildcamp when the tops are blowing a hoolie.",
+  "hikeKm": 2.0,
+  "src": [
+   "https://www.mourne-mountains.com/mournes/staying-in-the-mournes/wild-camp-spots/"
+  ],
+  "facilities": {
+   "toilets": {
+    "km": 3.78,
+    "min": 59,
+    "name": ""
+   },
+   "parking": {
+    "km": 0.84,
+    "min": 13,
+    "name": ""
+   },
+   "food": {
+    "km": 1.48,
+    "min": 23,
+    "name": "Carrick Cottage Cafe"
+   },
+   "shop": {
+    "km": 3.49,
+    "min": 54,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 71,
+  "name": "Rostrevor Forest (Kodak Corner)",
+  "county": "Down",
+  "type": "forest",
+  "access": "hike",
+  "lat": 54.105,
+  "lng": -6.17,
+  "desc": "Old oaks and towering conifers above Carlingford Lough; the Kodak Corner viewpoint is the money shot. Forest Service land — be discreet.",
+  "hikeKm": 2.0,
+  "src": [
+   "https://outdoorscott.com/wild-camping-northern-ireland/"
+  ],
+  "facilities": {
+   "toilets": {
+    "km": 1.44,
+    "min": 22,
+    "name": "Kilbroney Park"
+   },
+   "food": {
+    "km": 1.45,
+    "min": 23,
+    "name": "Synge & Byrne, Kilbroney Forest Park"
+   },
+   "shop": {
+    "km": 1.31,
+    "min": 20,
+    "name": ""
+   },
+   "pub": {
+    "km": 1.79,
+    "min": 28,
+    "name": "The Kilbroney"
+   },
+   "parking": {
+    "km": 0.96,
+    "min": 15,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 72,
+  "name": "Murlough Bay",
+  "county": "Antrim",
+  "type": "coast",
+  "access": "hike",
+  "lat": 55.211,
+  "lng": -6.135,
+  "desc": "The Causeway Coast's hidden amphitheatre below Fair Head — Scotland floats on the horizon. Park at the Casement memorial and walk down.",
+  "hikeKm": 1.2,
+  "src": [
+   "https://outdoorscott.com/wild-camping-northern-ireland/"
+  ],
+  "facilities": {
+   "parking": {
+    "km": 0.4,
+    "min": 6,
+    "name": ""
+   },
+   "water": {
+    "km": 1.36,
+    "min": 21,
+    "name": ""
+   },
+   "toilets": {
+    "km": 3.89,
+    "min": 61,
+    "name": ""
+   },
+   "food": {
+    "km": 3.75,
+    "min": 58,
+    "name": ""
+   },
+   "pub": {
+    "km": 3.47,
+    "min": 54,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 73,
+  "name": "Benone Beach",
+  "county": "Derry",
+  "type": "beach",
+  "access": "walk",
+  "lat": 55.175,
+  "lng": -6.915,
+  "desc": "Seven miles of hard golden sand under Binevenagh's cliffs. Pitch between the Martello tower and the tourist complex; Mussenden Temple up the strand.",
+  "hikeKm": 0.6,
+  "src": [
+   "https://outdoorscott.com/wild-camping-northern-ireland/"
+  ],
+  "facilities": {
+   "food": {
+    "km": 2.66,
+    "min": 42,
+    "name": "Gas Station Benone"
+   },
+   "pub": {
+    "km": 2.69,
+    "min": 42,
+    "name": "The Angler's Rest"
+   },
+   "toilets": {
+    "km": 5.26,
+    "min": 82,
+    "name": ""
+   },
+   "water": {
+    "km": 5.81,
+    "min": 91,
+    "name": ""
+   },
+   "parking": {
+    "km": 2.36,
+    "min": 37,
+    "name": ""
+   },
+   "shop": {
+    "km": 4.23,
+    "min": 66,
+    "name": "Spar"
+   }
+  }
+ },
+ {
+  "id": 74,
+  "name": "Lower Lough Erne (canoe trail)",
+  "county": "Fermanagh",
+  "type": "lake",
+  "access": "hike",
+  "lat": 54.467,
+  "lng": -7.9065,
+  "desc": "Island-hopping on the Lough Erne Canoe Trail — wooded islands and shore camps under the Cliffs of Magho. Best reached by paddle.",
+  "hikeKm": 1.0,
+  "src": [
+   "https://outdoorscott.com/wild-camping-northern-ireland/"
+  ],
+  "facilities": {
+   "parking": {
+    "km": 0.02,
+    "min": 1,
+    "name": ""
+   },
+   "food": {
+    "km": 5.62,
+    "min": 88,
+    "name": "Finn Lough Kitchen"
+   },
+   "toilets": {
+    "km": 0.62,
+    "min": 10,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 75,
+  "name": "Sperrins – Sawel Mountain",
+  "county": "Tyrone",
+  "type": "mountain",
+  "access": "hike",
+  "lat": 54.821,
+  "lng": -7.037,
+  "desc": "The emptiest hills in the north — bog, big skies and some of Ireland's darkest stars over the Glenelly valley. People camp here often and meet no one.",
+  "hikeKm": 3.0,
+  "src": [
+   "https://outdoorscott.com/wild-camping-northern-ireland/",
+   "https://www.reddit.com/r/northernireland/comments/1mev0gb/wild_camping_spots/"
+  ],
+  "facilities": {
+   "parking": {
+    "km": 1.95,
+    "min": 30,
+    "name": ""
+   },
+   "pub": {
+    "km": 5.57,
+    "min": 87,
+    "name": "Bridge House"
+   },
+   "toilets": {
+    "km": 5.4,
+    "min": 84,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 76,
+  "name": "Lough Neagh – Ballyronan Wood",
+  "county": "Derry",
+  "type": "lake",
+  "access": "walk",
+  "lat": 54.7119,
+  "lng": -6.5305,
+  "desc": "Waterside woodland on the biggest lake in these islands. Sunrise over the water and world-class birdlife; all shoreline is private, so ask around.",
+  "hikeKm": 0.5,
+  "src": [
+   "https://outdoorscott.com/wild-camping-northern-ireland/"
+  ],
+  "facilities": {
+   "pub": {
+    "km": 0.45,
+    "min": 7,
+    "name": "The Cove Bar"
+   },
+   "shop": {
+    "km": 0.46,
+    "min": 7,
+    "name": "Mace"
+   },
+   "parking": {
+    "km": 0.19,
+    "min": 3,
+    "name": ""
+   },
+   "food": {
+    "km": 0.34,
+    "min": 5,
+    "name": "Ballyronan Chinese Takeaway"
+   }
+  }
+ },
+ {
+  "id": 77,
+  "name": "Derrybeg dunes (Gweedore)",
+  "county": "Donegal",
+  "type": "beach",
+  "access": "walk",
+  "lat": 55.085,
+  "lng": -8.315,
+  "desc": "Dunes on the Gweedore shore where locals have camped for generations — Milky Way skies, with the golf clubhouse bar a 15-minute walk away.",
+  "hikeKm": 0.5,
+  "src": [
+   "https://www.reddit.com/r/northernireland/comments/1mev0gb/wild_camping_spots/"
+  ],
+  "facilities": {
+   "water": {
+    "km": 2.87,
+    "min": 45,
+    "name": ""
+   },
+   "food": {
+    "km": 1.88,
+    "min": 29,
+    "name": "Aran Espresso"
+   },
+   "pub": {
+    "km": 1.57,
+    "min": 25,
+    "name": "Teach Phete"
+   },
+   "shop": {
+    "km": 1.72,
+    "min": 27,
+    "name": "Siopa Mhicí"
+   },
+   "parking": {
+    "km": 0.24,
+    "min": 4,
+    "name": ""
+   }
+  }
  }
 ]

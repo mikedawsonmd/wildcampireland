@@ -54,10 +54,10 @@
   const markers = new Map(); // id -> marker
 
   function tentIcon(spot) {
-    const faved = faves.has(spot.id) ? ' faved' : '';
+    const faved = faves.has(spot.id);
     return L.divIcon({
-      className: 'tent-marker' + faved,
-      html: `<div class="pin"><span>⛺</span></div>`,
+      className: 'tent-marker' + (faved ? ' faved' : ''),
+      html: `<div class="pin"><span>${faved ? '❤️' : '⛺'}</span></div>`,
       iconSize: [34, 34], iconAnchor: [17, 32], popupAnchor: [0, -30],
     });
   }
@@ -95,19 +95,21 @@
 
   function render() {
     const vis = visibleSpots();
-    // markers
+    // markers show everything matching the filters
     SPOTS.forEach(spot => {
       const m = markers.get(spot.id);
       const show = vis.includes(spot);
       if (show && !map.hasLayer(m)) m.addTo(map);
       if (!show && map.hasLayer(m)) m.remove();
     });
-    // cards
+    // the list is additionally scoped to the visible map area
+    const bounds = map.getBounds();
+    const listed = vis.filter(s => bounds.contains([s.lat, s.lng]));
     const cards = document.getElementById('cards');
-    cards.innerHTML = vis.map(cardHtml).join('');
-    document.getElementById('emptyState').hidden = vis.length > 0;
+    cards.innerHTML = listed.map(cardHtml).join('');
+    document.getElementById('emptyState').hidden = listed.length > 0;
     document.getElementById('resultCount').textContent =
-      `${vis.length} spot${vis.length === 1 ? '' : 's'}`;
+      `${listed.length} spot${listed.length === 1 ? '' : 's'} in view`;
     // faves count
     document.getElementById('favesCount').textContent = faves.size;
     document.getElementById('favesToggle').classList.toggle('has-faves', faves.size > 0);
@@ -135,7 +137,7 @@
       .join('');
     return `<article class="card" data-id="${spot.id}">
       <button class="fave-btn${faved ? ' faved' : ''}" data-fave="${spot.id}"
-              aria-label="Favourite ${spot.name}">♥</button>
+              aria-label="Favourite ${spot.name}"><span class="material-symbols-rounded">favorite</span></button>
       <div class="card-head">
         <span class="card-emoji">${t.emoji}</span>
         <div class="card-titles">
@@ -191,7 +193,7 @@
 
     document.getElementById('sheetBody').innerHTML = `
       <button class="sheet-fave${faved ? ' faved' : ''}" data-fave="${spot.id}"
-              aria-label="Favourite">♥</button>
+              aria-label="Favourite"><span class="material-symbols-rounded">favorite</span></button>
       <h2>${t.emoji} ${spot.name}</h2>
       <div class="card-sub">Co. ${spot.county} · ${t.label} · ${a.emoji} ${a.label}${hike}</div>
       <p class="sheet-desc">${spot.desc}</p>
@@ -225,7 +227,9 @@
     if (e.target === sheet.querySelector('.sheet-handle')) closeSheet();
   });
   document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') { closeSheet(); closeAbout(); }
+    if (e.key === 'Escape' && document.getElementById('lightbox').hidden) {
+      closeSheet(); closeAbout();
+    }
   });
 
   // ---------- photos (Wikimedia Commons geosearch) ----------
@@ -238,7 +242,7 @@
         const url = 'https://commons.wikimedia.org/w/api.php?action=query&format=json&origin=*' +
           '&generator=geosearch&ggscoord=' + spot.lat + '%7C' + spot.lng +
           '&ggsradius=3000&ggslimit=12&ggsnamespace=6' +
-          '&prop=imageinfo&iiprop=url&iiurlwidth=480';
+          '&prop=imageinfo&iiprop=url&iiurlwidth=1024';
         const res = await fetch(url);
         const data = await res.json();
         imgs = Object.values(data?.query?.pages || {})
@@ -251,13 +255,58 @@
         strip.innerHTML = '<span class="fac-none">No photos mapped here yet — it really is off the beaten track. 🌿</span>';
         return;
       }
-      strip.innerHTML = imgs.map(ii =>
-        `<a href="${ii.descriptionurl}" target="_blank" rel="noopener"><img src="${ii.thumburl}" alt="Photo near ${spot.name}" loading="lazy"></a>`
+      strip.innerHTML = imgs.map((ii, i) =>
+        `<img src="${ii.thumburl}" alt="Photo near ${spot.name}" loading="lazy" data-gallery="${i}">`
       ).join('');
+      strip.querySelectorAll('img').forEach(img => {
+        img.addEventListener('click', () => openLightbox(spot, imgs, +img.dataset.gallery));
+      });
     } catch {
       strip.innerHTML = '<span class="fac-none">Couldn\'t load photos (offline?).</span>';
     }
   }
+
+  // ---------- fullscreen gallery ----------
+  const lightbox = document.getElementById('lightbox');
+  const lbImg = document.getElementById('lbImg');
+  let lbState = { imgs: [], idx: 0, name: '' };
+
+  function lbShow() {
+    const ii = lbState.imgs[lbState.idx];
+    lbImg.src = ii.thumburl;
+    lbImg.alt = `Photo near ${lbState.name}`;
+    document.getElementById('lbCaption').textContent = lbState.name;
+    document.getElementById('lbCount').textContent =
+      `${lbState.idx + 1} / ${lbState.imgs.length}`;
+  }
+  function openLightbox(spot, imgs, idx) {
+    lbState = { imgs, idx, name: spot.name };
+    lightbox.hidden = false;
+    document.body.style.overflow = 'hidden';
+    lbShow();
+  }
+  function closeLightbox() {
+    lightbox.hidden = true;
+    document.body.style.overflow = '';
+    lbImg.src = '';
+  }
+  function lbStep(d) {
+    const n = lbState.imgs.length;
+    lbState.idx = (lbState.idx + d + n) % n;
+    lbShow();
+  }
+  document.getElementById('lbClose').addEventListener('click', closeLightbox);
+  document.getElementById('lbPrev').addEventListener('click', () => lbStep(-1));
+  document.getElementById('lbNext').addEventListener('click', () => lbStep(1));
+  lightbox.addEventListener('click', (e) => {
+    if (e.target === lightbox || e.target.classList.contains('lb-stage')) closeLightbox();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (lightbox.hidden) return;
+    if (e.key === 'ArrowLeft') lbStep(-1);
+    if (e.key === 'ArrowRight') lbStep(1);
+    if (e.key === 'Escape') closeLightbox();
+  });
 
   // ---------- about sheet ----------
   const aboutSheet = document.getElementById('aboutSheet');
@@ -284,7 +333,19 @@
     o.value = c; o.textContent = 'Co. ' + c;
     countySelect.appendChild(o);
   });
-  countySelect.addEventListener('change', () => { state.county = countySelect.value; render(); });
+  countySelect.addEventListener('change', () => {
+    state.county = countySelect.value;
+    if (state.county === 'all') {
+      map.flyTo([53.4, -7.9], 7, { duration: 0.8 });
+    } else {
+      const pts = SPOTS.filter(s => s.county === state.county).map(s => [s.lat, s.lng]);
+      if (pts.length) map.flyToBounds(L.latLngBounds(pts).pad(0.25), { duration: 0.8, maxZoom: 11 });
+    }
+    render();
+  });
+
+  // keep the list in sync with the visible map area
+  map.on('moveend', render);
 
   const facPanel = document.getElementById('facilitiesPanel');
   document.getElementById('facilitiesBtn').addEventListener('click', () => {

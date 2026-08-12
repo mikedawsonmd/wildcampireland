@@ -19,6 +19,19 @@
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
+
+.material-symbols-rounded {
+  font-variation-settings: 'FILL' 0, 'wght' 500, 'GRAD' 0, 'opsz' 24;
+  font-size: 1.15em;
+  line-height: 1;
+  vertical-align: -0.18em;
+  user-select: none;
+}
+.faved .material-symbols-rounded,
+.chip-fave.active .material-symbols-rounded,
+.chip-fave.has-faves .material-symbols-rounded {
+  font-variation-settings: 'FILL' 1, 'wght' 500, 'GRAD' 0, 'opsz' 24;
+}
 html, body { height: 100%; }
 body {
   font-family: 'Nunito', system-ui, sans-serif;
@@ -64,6 +77,7 @@ h1, h2, h3, .brand-text, .vs-btn, .btn { font-family: 'Baloo 2', 'Nunito', sans-
   background: var(--green); color: var(--cream); border-color: var(--green);
 }
 .chip-fave { background: var(--white); }
+.chip-icon { padding: 7px 10px; }
 .chip-fave .heart { color: #c9c9c9; transition: color .15s; }
 .chip-fave.active { background: var(--sunset); border-color: var(--sunset); color: #fff; }
 .chip-fave.active .heart, .chip-fave.has-faves .heart { color: inherit; }
@@ -185,7 +199,12 @@ body.view-list .map-pane { visibility: hidden; }
   border: 2px solid var(--cream);
 }
 .tent-marker .pin span { transform: rotate(45deg); font-size: 15px; }
-.tent-marker.faved .pin { background: var(--sunset); }
+.tent-marker.faved .pin {
+  background: #ffd9e3;               /* light pink for favourites */
+  border-color: #fff;
+  box-shadow: 0 3px 10px rgba(231, 111, 81, .45);
+}
+.tent-marker.faved .pin span { font-size: 14px; }
 .leaflet-popup-content-wrapper { border-radius: 14px; font-family: 'Nunito'; }
 .leaflet-popup-content { margin: 12px 14px; }
 .popup-name { font-family: 'Baloo 2'; font-weight: 700; color: var(--green-deep); font-size: .98rem; }
@@ -264,6 +283,43 @@ body.view-list .map-pane { visibility: hidden; }
 .about-sheet p { font-size: .9rem; line-height: 1.5; margin-top: 8px; }
 .about-foot { text-align: center; font-weight: 700; color: var(--green); }
 .about-sheet .btn { margin-top: 16px; width: 100%; }
+
+/* ---------- Fullscreen gallery ---------- */
+.lightbox {
+  position: fixed; inset: 0; z-index: 2000;
+  background: rgba(12, 26, 21, .94);
+  display: flex; align-items: center; justify-content: center;
+}
+.lightbox[hidden] { display: none; }
+.lb-stage {
+  max-width: 92vw; max-height: 88vh;
+  display: flex; flex-direction: column; align-items: center; gap: 10px;
+}
+.lb-stage img {
+  max-width: 92vw; max-height: 80vh;
+  border-radius: 12px; box-shadow: 0 10px 50px rgba(0,0,0,.5);
+  object-fit: contain;
+}
+.lb-stage figcaption {
+  color: var(--cream); font-family: 'Baloo 2'; font-size: .95rem; opacity: .9;
+}
+.lb-btn {
+  position: absolute; z-index: 2001;
+  border: none; cursor: pointer;
+  width: 46px; height: 46px; border-radius: 50%;
+  background: rgba(250, 246, 236, .14); color: var(--cream);
+  display: flex; align-items: center; justify-content: center;
+  transition: background .15s;
+}
+.lb-btn:hover { background: rgba(250, 246, 236, .3); }
+.lb-btn .material-symbols-rounded { font-size: 1.6rem; }
+.lb-close { top: 16px; right: 16px; }
+.lb-prev { left: 10px; top: 50%; transform: translateY(-50%); }
+.lb-next { right: 10px; top: 50%; transform: translateY(-50%); }
+.lb-count {
+  position: absolute; bottom: 18px; left: 50%; transform: translateX(-50%);
+  color: var(--cream); font-weight: 700; font-size: .85rem; opacity: .85;
+}
 
 /* ---------- Desktop ---------- */
 @media (min-width: 860px) {
