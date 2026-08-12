@@ -81,6 +81,22 @@ COORDS = {
     "Lough Neagh – Ballyronan Wood": (54.7119, -6.5305),
     "Derrybeg dunes (Gweedore)": (55.0850, -8.3150),
     "Rosscarbery Beach Dunes": (51.56552, -9.01579),
+    "Fanore Beach dunes": (53.1192, -9.2892),
+    "Flaggy Shore (New Quay)": (53.1553, -9.0834),
+    "Black Head (Burren coast)": (53.1539, -9.2650),
+    "Loop Head": (52.5609, -9.9322),
+    "Spanish Point": (52.8461, -9.4151),
+    "Quilty Pier": (52.8168, -9.4564),
+    "White Strand, Doonbeg": (52.8679, -9.4266),
+    "Lough Inagh": (53.5101, -9.7398),
+    "Glassilaun Beach": (53.6155, -9.8864),
+    "Old Head Beach (Louisburgh)": (53.7762, -9.7691),
+    "Doo Lough (Doolough Valley)": (53.6510, -9.7638),
+    "Poisoned Glen": (55.0110, -8.0900),
+    "Maghera Strand & Caves": (54.7820, -8.4870),
+    "Horn Head": (55.2123, -7.9588),
+    "Fintra Beach (Killybegs)": (54.6346, -8.4533),
+    "Streedagh Beach": (54.4046, -8.5583),
 }
 
 
