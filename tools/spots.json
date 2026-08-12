@@ -1,0 +1,2304 @@
+[
+ {
+  "id": 1,
+  "name": "Lough Ouler",
+  "county": "Wicklow",
+  "type": "lake",
+  "access": "hike",
+  "lat": 53.0596,
+  "lng": -6.3738,
+  "desc": "The famous heart-shaped corrie lake below Tonelagee. Hike up from the Wicklow Gap road; pitch on the grassy shore and watch the sun rise over the rim.",
+  "hikeKm": 2.5,
+  "src": [
+   "https://www.reddit.com/r/WildCampingIreland/",
+   "https://wanderlog.com/place/details/1584524/lough-ouler"
+  ],
+  "facilities": {
+   "parking": {
+    "km": 2.43,
+    "min": 38,
+    "name": "Glenmacnass Waterfall"
+   }
+  }
+ },
+ {
+  "id": 2,
+  "name": "Lough Dan",
+  "county": "Wicklow",
+  "type": "lake",
+  "access": "hike",
+  "lat": 53.078,
+  "lng": -6.266,
+  "desc": "Quiet ribbon lake tucked between soft green hills below Scarr. Approach from the Oldbridge side; sandy beach at the north end is a classic pitch.",
+  "hikeKm": 3.0,
+  "src": [
+   "https://theirishinsider.ie/wanderlist/travel-in-ireland/wild-camping-ireland/"
+  ],
+  "facilities": {
+   "shop": {
+    "km": 3.17,
+    "min": 49,
+    "name": "Centra"
+   },
+   "parking": {
+    "km": 2.08,
+    "min": 32,
+    "name": ""
+   },
+   "pub": {
+    "km": 3.12,
+    "min": 49,
+    "name": "The Roundwood Inn"
+   },
+   "water": {
+    "km": 4.74,
+    "min": 74,
+    "name": ""
+   },
+   "food": {
+    "km": 3.16,
+    "min": 49,
+    "name": "Roundwood Stores"
+   },
+   "toilets": {
+    "km": 3.21,
+    "min": 50,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 3,
+  "name": "Glenmalure – Baravore",
+  "county": "Wicklow",
+  "type": "forest",
+  "access": "walk",
+  "lat": 52.9879,
+  "lng": -6.4409,
+  "desc": "Ireland's longest glacial valley. Popular grassy flats near the ford and hostel at Baravore; busy summer weekends, quieter midweek.",
+  "hikeKm": 0.5,
+  "src": [
+   "https://www.reddit.com/r/WildCampingIreland/comments/1l3699m/wild_camping_in_wicklow/"
+  ],
+  "facilities": {
+   "parking": {
+    "km": 1.88,
+    "min": 29,
+    "name": "Baravore car park"
+   }
+  }
+ },
+ {
+  "id": 4,
+  "name": "Fraughan Rock Glen",
+  "county": "Wicklow",
+  "type": "mountain",
+  "access": "hike",
+  "lat": 52.9826,
+  "lng": -6.4358,
+  "desc": "Hanging valley above Glenmalure with waterfalls spilling down granite slabs. A short steep pull from Baravore rewards with real seclusion.",
+  "hikeKm": 1.5,
+  "src": [
+   "https://www.reddit.com/r/WildCampingIreland/comments/1l3699m/wild_camping_in_wicklow/"
+  ],
+  "facilities": {
+   "parking": {
+    "km": 1.64,
+    "min": 26,
+    "name": "Baravore car park"
+   }
+  }
+ },
+ {
+  "id": 5,
+  "name": "Upper Lough Bray",
+  "county": "Wicklow",
+  "type": "lake",
+  "access": "walk",
+  "lat": 53.1775,
+  "lng": -6.3015,
+  "desc": "Moody corrie lake under Kippure, minutes from the Old Military Road. Room for a small tent; handy first-timer spot close to Dublin.",
+  "hikeKm": 0.8,
+  "src": [
+   "https://www.reddit.com/r/WildCampingIreland/comments/1l3699m/wild_camping_in_wicklow/"
+  ],
+  "facilities": {
+   "parking": {
+    "km": 0.72,
+    "min": 11,
+    "name": ""
+   },
+   "food": {
+    "km": 2.45,
+    "min": 38,
+    "name": "Armoury Café"
+   }
+  }
+ },
+ {
+  "id": 6,
+  "name": "Glensoulan Valley",
+  "county": "Wicklow",
+  "type": "river",
+  "access": "hike",
+  "lat": 53.155,
+  "lng": -6.245,
+  "desc": "Sheltered valley on the Dargle above Powerscourt Waterfall. Park at Crone Woods, cross Maulin and drop to the bridge — pitch by the river.",
+  "hikeKm": 4.0,
+  "src": [
+   "https://www.reddit.com/r/WildCampingIreland/comments/1l3699m/wild_camping_in_wicklow/"
+  ],
+  "facilities": {
+   "parking": {
+    "km": 2.12,
+    "min": 33,
+    "name": "Crone Wood Car Park"
+   },
+   "shop": {
+    "km": 5.9,
+    "min": 92,
+    "name": "Mini Market"
+   },
+   "toilets": {
+    "km": 2.62,
+    "min": 41,
+    "name": ""
+   },
+   "food": {
+    "km": 2.07,
+    "min": 32,
+    "name": "Mobile Cafe"
+   }
+  }
+ },
+ {
+  "id": 7,
+  "name": "Cloghoge Valley (Lough Tay)",
+  "county": "Wicklow",
+  "type": "lake",
+  "access": "hike",
+  "lat": 53.099,
+  "lng": -6.263,
+  "desc": "The dark 'Guinness lake' below Luggala. Camp discreetly in the valley between Lough Tay and Lough Dan — private estate, so leave zero trace.",
+  "hikeKm": 2.0,
+  "src": [
+   "https://www.reddit.com/r/WildCampingIreland/comments/1l3699m/wild_camping_in_wicklow/"
+  ],
+  "facilities": {
+   "shop": {
+    "km": 4.67,
+    "min": 73,
+    "name": "Centra"
+   },
+   "parking": {
+    "km": 0.71,
+    "min": 11,
+    "name": ""
+   },
+   "pub": {
+    "km": 4.59,
+    "min": 72,
+    "name": "The Roundwood Inn"
+   },
+   "food": {
+    "km": 3.22,
+    "min": 50,
+    "name": "Biking.ie"
+   },
+   "toilets": {
+    "km": 4.72,
+    "min": 74,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 8,
+  "name": "Devil's Glen Woods",
+  "county": "Wicklow",
+  "type": "forest",
+  "access": "walk",
+  "lat": 53.0215,
+  "lng": -6.1526,
+  "desc": "Deep wooded gorge on the Vartry with waterfall walk. Sheltered pitches under the trees; a favourite for low-key overnights.",
+  "hikeKm": 1.0,
+  "src": [
+   "https://www.reddit.com/r/WildCampingIreland/comments/1trwb7v/first_wild_camping_trip_in_wicklow_looking_for/"
+  ],
+  "facilities": {
+   "food": {
+    "km": 3.13,
+    "min": 49,
+    "name": "The Hen and Hog"
+   },
+   "shop": {
+    "km": 3.14,
+    "min": 49,
+    "name": "Circle K"
+   },
+   "pub": {
+    "km": 5.58,
+    "min": 87,
+    "name": "The Village Inn"
+   },
+   "parking": {
+    "km": 0.74,
+    "min": 12,
+    "name": "Devil's Glen Wood"
+   },
+   "toilets": {
+    "km": 3.33,
+    "min": 52,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 9,
+  "name": "Brittas Bay (south cove)",
+  "county": "Wicklow",
+  "type": "beach",
+  "access": "walk",
+  "lat": 52.872,
+  "lng": -6.053,
+  "desc": "Sheltered sandy cove at the quiet end of Brittas Bay's dunes. Park and wander down a track to a windbreak of marram grass.",
+  "hikeKm": 0.6,
+  "src": [
+   "https://www.reddit.com/r/WildCampingIreland/comments/1trwb7v/first_wild_camping_trip_in_wicklow_looking_for/"
+  ],
+  "facilities": {
+   "shop": {
+    "km": 3.41,
+    "min": 53,
+    "name": "Daybreak"
+   },
+   "food": {
+    "km": 2.2,
+    "min": 34,
+    "name": "The Beach Hut"
+   },
+   "parking": {
+    "km": 0.92,
+    "min": 14,
+    "name": ""
+   },
+   "pub": {
+    "km": 3.26,
+    "min": 51,
+    "name": "Jack White's"
+   },
+   "toilets": {
+    "km": 0.94,
+    "min": 15,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 10,
+  "name": "Blessington Lakes – Baltyboys",
+  "county": "Wicklow",
+  "type": "lake",
+  "access": "walk",
+  "lat": 53.1471,
+  "lng": -6.5363,
+  "desc": "Little beaches along the Poulaphouca shoreline from Baltyboys car park. ESB land — arrive after 7pm, gone early, no fires.",
+  "hikeKm": 1.2,
+  "src": [
+   "https://www.reddit.com/r/WildCampingIreland/comments/1gj0b90/favourite_area_to_wild_camp_within_23_hours_of/"
+  ],
+  "facilities": {
+   "shop": {
+    "km": 2.53,
+    "min": 39,
+    "name": "T. Dempsey"
+   },
+   "parking": {
+    "km": 0.31,
+    "min": 5,
+    "name": ""
+   },
+   "toilets": {
+    "km": 2.66,
+    "min": 42,
+    "name": ""
+   },
+   "pub": {
+    "km": 2.55,
+    "min": 40,
+    "name": "Hennessy’s"
+   },
+   "food": {
+    "km": 2.25,
+    "min": 35,
+    "name": "Brambles"
+   },
+   "water": {
+    "km": 2.95,
+    "min": 46,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 11,
+  "name": "Djouce – White Hill saddle",
+  "county": "Wicklow",
+  "type": "mountain",
+  "access": "hike",
+  "lat": 53.125,
+  "lng": -6.244,
+  "desc": "High saddle on the Wicklow Way boardwalk with huge views over Lough Tay and the Irish Sea. Exposed — pick a calm night.",
+  "hikeKm": 3.0,
+  "src": [
+   "https://www.reddit.com/r/WildCampingIreland/comments/1uwmvrx/handy_one_in_galway/"
+  ],
+  "facilities": {
+   "toilets": {
+    "km": 3.55,
+    "min": 55,
+    "name": ""
+   },
+   "parking": {
+    "km": 1.76,
+    "min": 27,
+    "name": ""
+   },
+   "food": {
+    "km": 2.63,
+    "min": 41,
+    "name": "Trails Cafe"
+   }
+  }
+ },
+ {
+  "id": 12,
+  "name": "Lugnaquilla (Camarahill shoulder)",
+  "county": "Wicklow",
+  "type": "mountain",
+  "access": "hike",
+  "lat": 52.966,
+  "lng": -6.478,
+  "desc": "Leinster's highest summit. High camps off the Camarahill route from Fenton's pub car park; serious weather, serious views.",
+  "hikeKm": 5.0,
+  "src": [
+   "https://www.reddit.com/r/WildCampingIreland/"
+  ],
+  "facilities": {
+   "pub": {
+    "km": 5.37,
+    "min": 84,
+    "name": "Fenton's"
+   },
+   "parking": {
+    "km": 4.99,
+    "min": 78,
+    "name": "Baravore car park"
+   }
+  }
+ },
+ {
+  "id": 13,
+  "name": "Glenmacnass Valley",
+  "county": "Wicklow",
+  "type": "river",
+  "access": "walk",
+  "lat": 53.0645,
+  "lng": -6.3371,
+  "desc": "Waterfall, granite slabs and open moor at the top of the Military Road above Laragh. Easy access, wild feel.",
+  "hikeKm": 0.7,
+  "src": [
+   "https://theirishinsider.ie/wanderlist/travel-in-ireland/wild-camping-ireland/"
+  ],
+  "facilities": {
+   "pub": {
+    "km": 5.96,
+    "min": 93,
+    "name": "Caseys Bar & Bistro"
+   },
+   "parking": {
+    "km": 0.28,
+    "min": 4,
+    "name": "Glenmacnass Waterfall"
+   },
+   "water": {
+    "km": 4.82,
+    "min": 75,
+    "name": ""
+   },
+   "food": {
+    "km": 5.96,
+    "min": 93,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 14,
+  "name": "Ventry Beach dunes",
+  "county": "Kerry",
+  "type": "beach",
+  "access": "walk",
+  "lat": 52.129,
+  "lng": -10.358,
+  "desc": "Long crescent of sand near Dingle with grassy dune pockets out of the wind. Village pub and shop a stroll away.",
+  "hikeKm": 0.5,
+  "src": [
+   "https://www.reddit.com/r/WildCampingIreland/comments/1uvmhk5/kerry_cant_be_beat/"
+  ],
+  "facilities": {
+   "toilets": {
+    "km": 0.58,
+    "min": 9,
+    "name": ""
+   },
+   "pub": {
+    "km": 0.41,
+    "min": 6,
+    "name": "Tigh Uí Chuinn"
+   },
+   "food": {
+    "km": 0.47,
+    "min": 7,
+    "name": "The Skipper"
+   },
+   "parking": {
+    "km": 0.31,
+    "min": 5,
+    "name": "The Slip"
+   },
+   "water": {
+    "km": 5.79,
+    "min": 90,
+    "name": ""
+   },
+   "shower": {
+    "km": 0.57,
+    "min": 9,
+    "name": ""
+   },
+   "shop": {
+    "km": 0.42,
+    "min": 7,
+    "name": "Oifig An Phoist Ceann Trá"
+   }
+  }
+ },
+ {
+  "id": 15,
+  "name": "Wine Strand, Smerwick Harbour",
+  "county": "Kerry",
+  "type": "beach",
+  "access": "walk",
+  "lat": 52.1789,
+  "lng": -10.3859,
+  "desc": "Small sandy coves around Smerwick Harbour on the Dingle peninsula, backed by grass patches perfect for a small tent.",
+  "hikeKm": 0.3,
+  "src": [
+   "https://www.reddit.com/r/WildCampingIreland/comments/1uvmhk5/kerry_cant_be_beat/"
+  ],
+  "facilities": {
+   "pub": {
+    "km": 0.94,
+    "min": 15,
+    "name": "Tig Bhric"
+   },
+   "food": {
+    "km": 1.47,
+    "min": 23,
+    "name": "Tigh T.P."
+   },
+   "toilets": {
+    "km": 2.31,
+    "min": 36,
+    "name": ""
+   },
+   "parking": {
+    "km": 0.19,
+    "min": 3,
+    "name": ""
+   },
+   "shower": {
+    "km": 5.37,
+    "min": 84,
+    "name": ""
+   },
+   "shop": {
+    "km": 5.45,
+    "min": 85,
+    "name": "Oifig An Phoist Ceann Trá"
+   }
+  }
+ },
+ {
+  "id": 16,
+  "name": "Coumeenoole Beach",
+  "county": "Kerry",
+  "type": "beach",
+  "access": "walk",
+  "lat": 52.1094,
+  "lng": -10.4639,
+  "desc": "Slea Head's dramatic cove framed by cliffs — Star Wars country. Grassy ledges above the strand; can be very windy.",
+  "hikeKm": 0.4,
+  "src": [
+   "https://www.irelandbeforeyoudie.com/top-10-best-spots-for-wild-camping-in-ireland-ranked/"
+  ],
+  "facilities": {
+   "food": {
+    "km": 0.44,
+    "min": 7,
+    "name": "Cafe"
+   },
+   "parking": {
+    "km": 0.12,
+    "min": 2,
+    "name": ""
+   },
+   "toilets": {
+    "km": 3.49,
+    "min": 54,
+    "name": ""
+   },
+   "pub": {
+    "km": 2.85,
+    "min": 44,
+    "name": "Krugers Pub"
+   }
+  }
+ },
+ {
+  "id": 17,
+  "name": "Inch Beach dunes",
+  "county": "Kerry",
+  "type": "beach",
+  "access": "walk",
+  "lat": 52.135,
+  "lng": -9.985,
+  "desc": "Five kilometres of spit and dune between Dingle Bay and Castlemaine Harbour. Walk beyond the crowds and disappear behind a dune.",
+  "hikeKm": 1.5,
+  "src": [
+   "https://www.reddit.com/r/WildCampingIreland/comments/1uvmhk5/kerry_cant_be_beat/"
+  ],
+  "facilities": {
+   "food": {
+    "km": 0.81,
+    "min": 13,
+    "name": "Sammy's"
+   },
+   "pub": {
+    "km": 4.91,
+    "min": 77,
+    "name": "The Randy Leprachaun"
+   },
+   "shop": {
+    "km": 5.13,
+    "min": 80,
+    "name": "O'Domhnaill"
+   },
+   "parking": {
+    "km": 0.65,
+    "min": 10,
+    "name": ""
+   },
+   "water": {
+    "km": 0.96,
+    "min": 15,
+    "name": ""
+   },
+   "shower": {
+    "km": 0.78,
+    "min": 12,
+    "name": ""
+   },
+   "toilets": {
+    "km": 0.86,
+    "min": 13,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 18,
+  "name": "Great Blasket Island",
+  "county": "Kerry",
+  "type": "island",
+  "access": "hike",
+  "lat": 52.099,
+  "lng": -10.53,
+  "desc": "Boat from Dunquin, then camp above the deserted village looking back at the mainland. Seals on An Trá Bhán below. Check crossings ahead.",
+  "hikeKm": 1.0,
+  "src": [
+   "https://www.reddit.com/r/WildCampingIreland/comments/1v6ggyt/campsite_recommendations/"
+  ],
+  "facilities": {
+   "food": {
+    "km": 1.25,
+    "min": 19,
+    "name": ""
+   },
+   "toilets": {
+    "km": 1.24,
+    "min": 19,
+    "name": ""
+   },
+   "parking": {
+    "km": 4.57,
+    "min": 71,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 19,
+  "name": "Derrynane dunes & Abbey Island",
+  "county": "Kerry",
+  "type": "beach",
+  "access": "walk",
+  "lat": 51.7578,
+  "lng": -10.124,
+  "desc": "Golden sand, monastic ruins and dune hollows near Caherdaniel on the Ring of Kerry. Abbey Island is walkable at low tide.",
+  "hikeKm": 0.8,
+  "src": [
+   "https://www.reddit.com/r/WildCampingIreland/comments/1toko4c/camping_near_kerry_light_reserve/"
+  ],
+  "facilities": {
+   "food": {
+    "km": 0.71,
+    "min": 11,
+    "name": "Tea Rooms"
+   },
+   "toilets": {
+    "km": 0.68,
+    "min": 11,
+    "name": ""
+   },
+   "shower": {
+    "km": 2.04,
+    "min": 32,
+    "name": ""
+   },
+   "parking": {
+    "km": 0.46,
+    "min": 7,
+    "name": ""
+   },
+   "shop": {
+    "km": 2.25,
+    "min": 35,
+    "name": "Siopa Glaise Rinn"
+   },
+   "pub": {
+    "km": 1.13,
+    "min": 18,
+    "name": "Keatings Bar"
+   }
+  }
+ },
+ {
+  "id": 20,
+  "name": "Lamb's Head",
+  "county": "Kerry",
+  "type": "coast",
+  "access": "drive",
+  "lat": 51.7404,
+  "lng": -10.1319,
+  "desc": "Quiet cul-de-sac road south of Caherdaniel with grassy lay-bys right on the water. Stunning Kenmare Bay views, superb dark skies.",
+  "hikeKm": 0.1,
+  "src": [
+   "https://www.reddit.com/r/WildCampingIreland/comments/1toko4c/camping_near_kerry_light_reserve/"
+  ],
+  "facilities": {
+   "food": {
+    "km": 2.33,
+    "min": 36,
+    "name": "Skellig Coast Kitchen"
+   },
+   "toilets": {
+    "km": 2.32,
+    "min": 36,
+    "name": ""
+   },
+   "shower": {
+    "km": 3.25,
+    "min": 51,
+    "name": ""
+   },
+   "parking": {
+    "km": 2.28,
+    "min": 36,
+    "name": ""
+   },
+   "shop": {
+    "km": 3.46,
+    "min": 54,
+    "name": "Siopa Glaise Rinn"
+   },
+   "pub": {
+    "km": 2.35,
+    "min": 37,
+    "name": "Keatings Bar"
+   }
+  }
+ },
+ {
+  "id": 21,
+  "name": "Ballinskelligs Beach",
+  "county": "Kerry",
+  "type": "beach",
+  "access": "walk",
+  "lat": 51.8216,
+  "lng": -10.2724,
+  "desc": "Beach, pier and ruined abbey in the heart of the Kerry Dark Sky Reserve. Milky Way over the Atlantic on a clear night.",
+  "hikeKm": 0.4,
+  "src": [
+   "https://www.reddit.com/r/WildCampingIreland/comments/1toko4c/camping_near_kerry_light_reserve/"
+  ],
+  "facilities": {
+   "parking": {
+    "km": 0.1,
+    "min": 2,
+    "name": ""
+   },
+   "pub": {
+    "km": 0.41,
+    "min": 6,
+    "name": "Cable O´Leary"
+   },
+   "food": {
+    "km": 0.14,
+    "min": 2,
+    "name": "Caife Cois Trá"
+   },
+   "water": {
+    "km": 0.09,
+    "min": 1,
+    "name": ""
+   },
+   "toilets": {
+    "km": 0.18,
+    "min": 3,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 22,
+  "name": "Minard Castle",
+  "county": "Kerry",
+  "type": "coast",
+  "access": "drive",
+  "lat": 52.126,
+  "lng": -10.1105,
+  "desc": "Ruined castle above a storm beach of giant sandstone boulders. Grassy patches for tents; a dramatic, easy overnight.",
+  "hikeKm": 0.2,
+  "src": [
+   "https://www.dreambigtravelfarblog.com/blog/wild-camping-spots-ireland"
+  ],
+  "facilities": {
+   "food": {
+    "km": 4.74,
+    "min": 74,
+    "name": "Sailor's Catch"
+   },
+   "pub": {
+    "km": 2.64,
+    "min": 41,
+    "name": "O'Sullivan's Bar"
+   },
+   "shop": {
+    "km": 2.73,
+    "min": 43,
+    "name": "Kate's Cross"
+   },
+   "parking": {
+    "km": 2.73,
+    "min": 43,
+    "name": ""
+   },
+   "toilets": {
+    "km": 3.89,
+    "min": 61,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 23,
+  "name": "Brandon Creek",
+  "county": "Kerry",
+  "type": "coast",
+  "access": "drive",
+  "lat": 52.268,
+  "lng": -10.323,
+  "desc": "The narrow inlet where St Brendan set sail. Flat ground by the pier under Mount Brandon's flank; big cliff walks either side.",
+  "hikeKm": 0.2,
+  "src": [
+   "https://www.dreambigtravelfarblog.com/blog/wild-camping-spots-ireland"
+  ],
+  "facilities": {
+   "pub": {
+    "km": 4.74,
+    "min": 74,
+    "name": "An Bothar Pub & Guesthouse"
+   },
+   "parking": {
+    "km": 3.49,
+    "min": 54,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 24,
+  "name": "Mount Brandon (Faha side)",
+  "county": "Kerry",
+  "type": "mountain",
+  "access": "hike",
+  "lat": 52.24,
+  "lng": -10.242,
+  "desc": "Ireland's holiest mountain. High camps on the Faha ridge route above Cloghane give paternoster lakes and ocean views.",
+  "hikeKm": 3.5,
+  "src": [
+   "https://theirishinsider.ie/wanderlist/travel-in-ireland/wild-camping-ireland/"
+  ],
+  "facilities": {
+   "parking": {
+    "km": 2.48,
+    "min": 39,
+    "name": ""
+   },
+   "pub": {
+    "km": 4.12,
+    "min": 64,
+    "name": "O'Connor's Bar"
+   },
+   "water": {
+    "km": 4.83,
+    "min": 75,
+    "name": ""
+   },
+   "shop": {
+    "km": 4.14,
+    "min": 65,
+    "name": "Siopa an Phobail"
+   }
+  }
+ },
+ {
+  "id": 25,
+  "name": "Molls Gap",
+  "county": "Kerry",
+  "type": "mountain",
+  "access": "drive",
+  "lat": 51.9386,
+  "lng": -9.6576,
+  "desc": "High pass between Kenmare and Killarney on the Ring of Kerry. Van-friendly pull-ins with views over the Gap of Dunloe country.",
+  "hikeKm": 0.0,
+  "src": [
+   "https://www.dreambigtravelfarblog.com/blog/wild-camping-spots-ireland"
+  ],
+  "facilities": {
+   "food": {
+    "km": 0.02,
+    "min": 1,
+    "name": "Avoca Cafe"
+   },
+   "parking": {
+    "km": 0.04,
+    "min": 1,
+    "name": "Moll's Gap Parking"
+   }
+  }
+ },
+ {
+  "id": 26,
+  "name": "Black Valley (Kerry Way)",
+  "county": "Kerry",
+  "type": "trail",
+  "access": "hike",
+  "lat": 51.98,
+  "lng": -9.76,
+  "desc": "Remote valley behind the Gap of Dunloe on the Kerry Way — one of the last places in Ireland to get electricity. Classic through-hiker camp.",
+  "hikeKm": 2.0,
+  "src": [
+   "https://www.reddit.com/r/WildCampingIreland/comments/1vf39vg/on_the_kerry_way/"
+  ],
+  "facilities": {
+   "food": {
+    "km": 1.68,
+    "min": 26,
+    "name": "Cooky Monsters Cafe"
+   },
+   "parking": {
+    "km": 5.2,
+    "min": 81,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 27,
+  "name": "Allihies (Ballydonegan Bay)",
+  "county": "Cork",
+  "type": "beach",
+  "access": "walk",
+  "lat": 51.635,
+  "lng": -10.05,
+  "desc": "Copper-mine village on the Beara Way with a quartz-sand beach and painted pubs. Pitches in the grass above the strand.",
+  "hikeKm": 0.3,
+  "src": [
+   "https://www.irelandbeforeyoudie.com/top-10-best-spots-for-wild-camping-in-ireland-ranked/"
+  ],
+  "facilities": {
+   "shop": {
+    "km": 0.77,
+    "min": 12,
+    "name": "John Terry O'Sullivan"
+   },
+   "pub": {
+    "km": 0.74,
+    "min": 12,
+    "name": "Jimmy's"
+   },
+   "food": {
+    "km": 0.53,
+    "min": 8,
+    "name": "The Copper Cafe"
+   },
+   "parking": {
+    "km": 0.72,
+    "min": 11,
+    "name": ""
+   },
+   "toilets": {
+    "km": 0.69,
+    "min": 11,
+    "name": ""
+   },
+   "shower": {
+    "km": 0.69,
+    "min": 11,
+    "name": ""
+   },
+   "water": {
+    "km": 0.63,
+    "min": 10,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 28,
+  "name": "Castletownbere pier",
+  "county": "Cork",
+  "type": "coast",
+  "access": "drive",
+  "lat": 51.6514,
+  "lng": -9.9105,
+  "desc": "Six free first-come motorhome spots by Ireland's biggest whitefish port. 24-hour public toilets nearby and great pubs (MacCarthy's).",
+  "hikeKm": 0.0,
+  "src": [
+   "https://www.dreambigtravelfarblog.com/blog/wild-camping-spots-ireland"
+  ],
+  "facilities": {
+   "shop": {
+    "km": 0.01,
+    "min": 1,
+    "name": "Spar"
+   },
+   "pub": {
+    "km": 0.04,
+    "min": 1,
+    "name": "MacCarthy's Bar"
+   },
+   "toilets": {
+    "km": 0.07,
+    "min": 1,
+    "name": ""
+   },
+   "food": {
+    "km": 0.04,
+    "min": 1,
+    "name": "Breen’s Lobster Bar"
+   },
+   "parking": {
+    "km": 0.02,
+    "min": 1,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 29,
+  "name": "Beara Way – Dursey Sound",
+  "county": "Cork",
+  "type": "trail",
+  "access": "hike",
+  "lat": 51.609,
+  "lng": -10.1566,
+  "desc": "Wind-scoured end of the Beara Peninsula by the cable car to Dursey Island. Wild coastal camping on the Beara Way loop.",
+  "hikeKm": 1.0,
+  "src": [
+   "https://www.reddit.com/r/WildCampingIreland/comments/1u4n2bq/seeking_advice_on_identifying_suitable_spots_to/"
+  ],
+  "facilities": {
+   "parking": {
+    "km": 0.17,
+    "min": 3,
+    "name": ""
+   },
+   "toilets": {
+    "km": 0.2,
+    "min": 3,
+    "name": ""
+   },
+   "food": {
+    "km": 3.64,
+    "min": 57,
+    "name": "Cable-car café"
+   }
+  }
+ },
+ {
+  "id": 30,
+  "name": "Coumshingaun Lough",
+  "county": "Waterford",
+  "type": "lake",
+  "access": "hike",
+  "lat": 52.2498,
+  "lng": -7.5223,
+  "desc": "One of Europe's finest corrie lakes, walled by 350m Comeragh cliffs. Steep 45-minute pull from the R676; pitch by the outflow.",
+  "hikeKm": 1.8,
+  "src": [
+   "https://www.reddit.com/r/WildCampingIreland/top/"
+  ],
+  "facilities": {
+   "food": {
+    "km": 4.32,
+    "min": 67,
+    "name": "Cooney's Yard"
+   },
+   "parking": {
+    "km": 1.61,
+    "min": 25,
+    "name": "Kilclooney Wood"
+   }
+  }
+ },
+ {
+  "id": 31,
+  "name": "Trá na mBó",
+  "county": "Waterford",
+  "type": "beach",
+  "access": "walk",
+  "lat": 52.1341,
+  "lng": -7.3763,
+  "desc": "Hidden Copper Coast cove near Bunmahon reached by a grassy track. Sea stacks, caves and hardly a soul.",
+  "hikeKm": 0.5,
+  "src": [
+   "https://www.reddit.com/r/WildCampingIreland/"
+  ],
+  "facilities": {
+   "shop": {
+    "km": 0.93,
+    "min": 15,
+    "name": "An Siopa"
+   },
+   "food": {
+    "km": 0.7,
+    "min": 11,
+    "name": "Engine Hut"
+   },
+   "parking": {
+    "km": 0.64,
+    "min": 10,
+    "name": ""
+   },
+   "toilets": {
+    "km": 0.76,
+    "min": 12,
+    "name": ""
+   },
+   "pub": {
+    "km": 0.69,
+    "min": 11,
+    "name": "Engine House Bar & Cafe"
+   }
+  }
+ },
+ {
+  "id": 32,
+  "name": "Ballyquin Beach",
+  "county": "Waterford",
+  "type": "beach",
+  "access": "drive",
+  "lat": 51.972,
+  "lng": -7.716,
+  "desc": "Quiet strand north of Ardmore with parking right behind the beach and views along the cliffs. Handy van overnight.",
+  "hikeKm": 0.1,
+  "src": [
+   "https://www.dreambigtravelfarblog.com/blog/wild-camping-spots-ireland"
+  ],
+  "facilities": {
+   "shop": {
+    "km": 2.36,
+    "min": 37,
+    "name": "Beach Comber's"
+   },
+   "toilets": {
+    "km": 0.84,
+    "min": 13,
+    "name": ""
+   },
+   "pub": {
+    "km": 2.8,
+    "min": 44,
+    "name": "Flemings Bar"
+   },
+   "food": {
+    "km": 2.37,
+    "min": 37,
+    "name": "Urchin"
+   },
+   "parking": {
+    "km": 0.85,
+    "min": 13,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 33,
+  "name": "Bunmahon dunes",
+  "county": "Waterford",
+  "type": "beach",
+  "access": "walk",
+  "lat": 52.1399,
+  "lng": -7.3709,
+  "desc": "Surf beach on the Copper Coast backed by dunes; village chipper and pub two minutes away.",
+  "hikeKm": 0.2,
+  "src": [
+   "https://www.dreambigtravelfarblog.com/blog/wild-camping-spots-ireland"
+  ],
+  "facilities": {
+   "shop": {
+    "km": 0.23,
+    "min": 4,
+    "name": "An Siopa"
+   },
+   "food": {
+    "km": 0.08,
+    "min": 1,
+    "name": "Engine Hut"
+   },
+   "parking": {
+    "km": 0.14,
+    "min": 2,
+    "name": ""
+   },
+   "toilets": {
+    "km": 0.09,
+    "min": 1,
+    "name": ""
+   },
+   "pub": {
+    "km": 0.07,
+    "min": 1,
+    "name": "Engine House Bar & Cafe"
+   }
+  }
+ },
+ {
+  "id": 34,
+  "name": "The Vee & Bay Lough",
+  "county": "Tipperary",
+  "type": "mountain",
+  "access": "drive",
+  "lat": 52.252,
+  "lng": -7.959,
+  "desc": "Hairpin pass through the Knockmealdowns ablaze with rhododendron in early summer. Park at the Vee; Bay Lough is a short walk below.",
+  "hikeKm": 0.6,
+  "src": [
+   "https://www.dreambigtravelfarblog.com/blog/wild-camping-spots-ireland"
+  ],
+  "facilities": {
+   "food": {
+    "km": 3.68,
+    "min": 57,
+    "name": "Valley Takeaway & Restaurant"
+   },
+   "shop": {
+    "km": 3.69,
+    "min": 58,
+    "name": "XL"
+   },
+   "parking": {
+    "km": 0.27,
+    "min": 4,
+    "name": ""
+   },
+   "pub": {
+    "km": 3.7,
+    "min": 58,
+    "name": "Nedeen's Bar"
+   },
+   "toilets": {
+    "km": 3.66,
+    "min": 57,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 35,
+  "name": "Borheen Lough (Galtees)",
+  "county": "Tipperary",
+  "type": "lake",
+  "access": "hike",
+  "lat": 52.3726,
+  "lng": -8.1516,
+  "desc": "Lonely corrie lake tucked under Galtymore's southern cliffs. A proper hike-in earns you the whole mountain to yourself.",
+  "hikeKm": 3.0,
+  "src": [
+   "https://www.reddit.com/r/WildCampingIreland/"
+  ],
+  "facilities": {
+   "pub": {
+    "km": 4.36,
+    "min": 68,
+    "name": "Caravansary"
+   },
+   "food": {
+    "km": 5.05,
+    "min": 79,
+    "name": "Kings Yard"
+   },
+   "toilets": {
+    "km": 5.04,
+    "min": 79,
+    "name": ""
+   },
+   "parking": {
+    "km": 3.96,
+    "min": 62,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 36,
+  "name": "Lake Muskry (Galtees)",
+  "county": "Tipperary",
+  "type": "lake",
+  "access": "hike",
+  "lat": 52.38,
+  "lng": -8.105,
+  "desc": "Corrie lake in the Galtees above the Glen of Aherlow, reached by forest track from Rossadrehid. Sheltered grassy shore.",
+  "hikeKm": 4.0,
+  "src": [
+   "https://www.reddit.com/r/WildCampingIreland/"
+  ],
+  "facilities": {
+   "pub": {
+    "km": 4.68,
+    "min": 73,
+    "name": "Caravansary"
+   },
+   "parking": {
+    "km": 3.13,
+    "min": 49,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 37,
+  "name": "Dog's Bay & Gurteen Bay",
+  "county": "Galway",
+  "type": "beach",
+  "access": "walk",
+  "lat": 53.381,
+  "lng": -9.954,
+  "desc": "Back-to-back horseshoe beaches of pure white shell sand near Roundstone. Camp in the machair between the two.",
+  "hikeKm": 0.5,
+  "src": [
+   "https://www.reddit.com/r/WildCampingIreland/comments/1v6ggyt/campsite_recommendations/"
+  ],
+  "facilities": {
+   "food": {
+    "km": 2.8,
+    "min": 44,
+    "name": "Vaughan’s Bar & Restaurant"
+   },
+   "parking": {
+    "km": 0.0,
+    "min": 1,
+    "name": "Gorteen Bay Beach"
+   },
+   "shop": {
+    "km": 2.85,
+    "min": 44,
+    "name": "J.Woods General store"
+   },
+   "pub": {
+    "km": 2.86,
+    "min": 45,
+    "name": "The Shamrock"
+   },
+   "shower": {
+    "km": 0.04,
+    "min": 1,
+    "name": ""
+   },
+   "toilets": {
+    "km": 0.03,
+    "min": 1,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 38,
+  "name": "Omey Island",
+  "county": "Galway",
+  "type": "island",
+  "access": "walk",
+  "lat": 53.5309,
+  "lng": -10.1629,
+  "desc": "Tidal island near Claddaghduff — drive or walk across the sand at low tide. Check tide times or enjoy an unplanned long stay.",
+  "hikeKm": 1.2,
+  "src": [
+   "https://www.irelandbeforeyoudie.com/top-10-best-spots-for-wild-camping-in-ireland-ranked/"
+  ],
+  "facilities": {
+   "parking": {
+    "km": 1.5,
+    "min": 23,
+    "name": ""
+   },
+   "pub": {
+    "km": 1.93,
+    "min": 30,
+    "name": "Sweeney's Strand Bar"
+   },
+   "toilets": {
+    "km": 2.03,
+    "min": 32,
+    "name": ""
+   },
+   "shower": {
+    "km": 2.03,
+    "min": 32,
+    "name": ""
+   },
+   "food": {
+    "km": 4.43,
+    "min": 69,
+    "name": "Oliver’s"
+   },
+   "shop": {
+    "km": 1.94,
+    "min": 30,
+    "name": ""
+   },
+   "water": {
+    "km": 2.07,
+    "min": 32,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 39,
+  "name": "Gleninagh Valley (Twelve Bens)",
+  "county": "Galway",
+  "type": "mountain",
+  "access": "hike",
+  "lat": 53.508,
+  "lng": -9.83,
+  "desc": "Raw glacial valley into the heart of the Twelve Bens. For experienced campers; rocky, boggy and utterly wild.",
+  "hikeKm": 3.5,
+  "src": [
+   "https://theirishinsider.ie/wanderlist/travel-in-ireland/wild-camping-ireland/"
+  ],
+  "facilities": {
+   "pub": {
+    "km": 5.73,
+    "min": 89,
+    "name": "The Fisherman’s Pub"
+   },
+   "parking": {
+    "km": 5.15,
+    "min": 80,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 40,
+  "name": "Lough Corrib shore (near Cong)",
+  "county": "Galway",
+  "type": "lake",
+  "access": "walk",
+  "lat": 53.5252,
+  "lng": -9.3051,
+  "desc": "Lakeside woodland clearing on Corrib's western shore near Cong — a Reddit-shared favourite with a morning-swim spot.",
+  "hikeKm": 0.8,
+  "src": [
+   "https://www.reddit.com/r/WildCampingIreland/comments/1uwmvrx/handy_one_in_galway/"
+  ],
+  "facilities": {
+   "parking": {
+    "km": 0.17,
+    "min": 3,
+    "name": ""
+   },
+   "toilets": {
+    "km": 2.06,
+    "min": 32,
+    "name": ""
+   },
+   "shop": {
+    "km": 2.17,
+    "min": 34,
+    "name": ""
+   },
+   "pub": {
+    "km": 2.14,
+    "min": 33,
+    "name": "Pat Cohan"
+   },
+   "food": {
+    "km": 2.24,
+    "min": 35,
+    "name": "Puddleducks Café"
+   }
+  }
+ },
+ {
+  "id": 41,
+  "name": "Rinroe Beach, Carrowteige",
+  "county": "Mayo",
+  "type": "beach",
+  "access": "walk",
+  "lat": 54.323,
+  "lng": -9.826,
+  "desc": "Remote north Mayo strand below the Children of Lir loop walks. Sea stacks, cliffs, and wind — bring good pegs.",
+  "hikeKm": 0.4,
+  "src": [
+   "https://www.reddit.com/r/irishtourism/comments/1efm85i/seeking_wild_camping_spots_in_county_mayo_or/"
+  ],
+  "facilities": {
+   "pub": {
+    "km": 1.33,
+    "min": 21,
+    "name": "Connollys Pub"
+   },
+   "parking": {
+    "km": 1.38,
+    "min": 22,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 42,
+  "name": "Keem Bay, Achill",
+  "county": "Mayo",
+  "type": "beach",
+  "access": "walk",
+  "lat": 53.967,
+  "lng": -10.1902,
+  "desc": "Achill's amphitheatre cove below Croaghaun. Arrive late, leave early — it's mobbed by day, magical by night.",
+  "hikeKm": 0.5,
+  "src": [
+   "https://www.irelandbeforeyoudie.com/top-10-best-spots-for-wild-camping-in-ireland-ranked/"
+  ],
+  "facilities": {
+   "toilets": {
+    "km": 0.42,
+    "min": 7,
+    "name": ""
+   },
+   "parking": {
+    "km": 0.27,
+    "min": 4,
+    "name": ""
+   },
+   "food": {
+    "km": 3.57,
+    "min": 56,
+    "name": "Gieltys Bar & Restaurant"
+   },
+   "shop": {
+    "km": 4.25,
+    "min": 66,
+    "name": "Dooagh Shop"
+   },
+   "pub": {
+    "km": 4.04,
+    "min": 63,
+    "name": "Lourdie's"
+   }
+  }
+ },
+ {
+  "id": 43,
+  "name": "Wild Nephin – Letterkeen",
+  "county": "Mayo",
+  "type": "forest",
+  "access": "hike",
+  "lat": 54.011,
+  "lng": -9.5894,
+  "desc": "Ireland's only official wilderness backpacking area and a gold-tier Dark Sky Park. Camp along the Letterkeen loop near the Brogan Carroll bothy.",
+  "hikeKm": 2.5,
+  "src": [
+   "https://theirishinsider.ie/wanderlist/travel-in-ireland/wild-camping-ireland/"
+  ],
+  "facilities": {
+   "parking": {
+    "km": 2.66,
+    "min": 41,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 44,
+  "name": "Silver Strand (Dooaghtry)",
+  "county": "Mayo",
+  "type": "beach",
+  "access": "hike",
+  "lat": 53.656,
+  "lng": -9.91,
+  "desc": "White horseshoe beach south of Louisburgh framed by Mweelrea. Dune camping with Croagh Patrick on the horizon.",
+  "hikeKm": 0.6,
+  "src": [
+   "https://secretireland.ie/ultimate-guide-to-wild-camping-spots-in-ireland-explore-the-best-of-nature/"
+  ],
+  "facilities": {
+   "shop": {
+    "km": 5.73,
+    "min": 89,
+    "name": "King's Store"
+   },
+   "food": {
+    "km": 5.51,
+    "min": 86,
+    "name": "P. Dan's Bar & Restaurant"
+   },
+   "toilets": {
+    "km": 5.12,
+    "min": 80,
+    "name": ""
+   },
+   "parking": {
+    "km": 1.57,
+    "min": 24,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 45,
+  "name": "Easkey Castle",
+  "county": "Sligo",
+  "type": "coast",
+  "access": "drive",
+  "lat": 54.289,
+  "lng": -8.963,
+  "desc": "Ruined 13th-century tower beside one of Europe's best surf reefs. Grassy foreshore where locals and surfers camp all summer.",
+  "hikeKm": 0.1,
+  "src": [
+   "https://www.reddit.com/r/irishtourism/comments/1efm85i/seeking_wild_camping_spots_in_county_mayo_or/"
+  ],
+  "facilities": {
+   "shop": {
+    "km": 0.31,
+    "min": 5,
+    "name": "Bernie's"
+   },
+   "food": {
+    "km": 0.32,
+    "min": 5,
+    "name": "Pizza Pan"
+   },
+   "pub": {
+    "km": 0.33,
+    "min": 5,
+    "name": "The Castle Inn"
+   },
+   "toilets": {
+    "km": 0.45,
+    "min": 7,
+    "name": ""
+   },
+   "parking": {
+    "km": 0.14,
+    "min": 2,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 46,
+  "name": "Mullaghmore Head",
+  "county": "Sligo",
+  "type": "coast",
+  "access": "drive",
+  "lat": 54.4703,
+  "lng": -8.4636,
+  "desc": "Big-wave headland with Classiebawn Castle and Benbulben behind. Grassy verges on the loop road; very exposed in a blow.",
+  "hikeKm": 0.2,
+  "src": [
+   "https://www.irelandbeforeyoudie.com/top-10-best-spots-for-wild-camping-in-ireland-ranked/"
+  ],
+  "facilities": {
+   "shop": {
+    "km": 1.04,
+    "min": 16,
+    "name": "Paddy's"
+   },
+   "pub": {
+    "km": 1.1,
+    "min": 17,
+    "name": "Nimmo's Bar & Lounge"
+   },
+   "food": {
+    "km": 1.11,
+    "min": 17,
+    "name": "Quay Bar & Restaurant"
+   },
+   "parking": {
+    "km": 0.99,
+    "min": 15,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 47,
+  "name": "Mullaghderg Beach",
+  "county": "Donegal",
+  "type": "beach",
+  "access": "drive",
+  "lat": 55.022,
+  "lng": -8.405,
+  "desc": "Rosses strand near Kincasslagh loved by locals. Big parking area behind the beach; Atlantic sunsets straight off the sand.",
+  "hikeKm": 0.2,
+  "src": [
+   "https://www.dreambigtravelfarblog.com/blog/wild-camping-spots-ireland"
+  ],
+  "facilities": {
+   "food": {
+    "km": 4.48,
+    "min": 70,
+    "name": "The Wheelhouse Cafe"
+   },
+   "shop": {
+    "km": 0.9,
+    "min": 14,
+    "name": "The Cope - Foodstore"
+   },
+   "pub": {
+    "km": 3.82,
+    "min": 60,
+    "name": "Bonner's Bar"
+   },
+   "toilets": {
+    "km": 4.93,
+    "min": 77,
+    "name": ""
+   },
+   "parking": {
+    "km": 0.57,
+    "min": 9,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 48,
+  "name": "Dunree Beach & Fort",
+  "county": "Donegal",
+  "type": "beach",
+  "access": "walk",
+  "lat": 55.1963,
+  "lng": -7.5541,
+  "desc": "Sheltered Inishowen cove beneath the old fort on Lough Swilly. Park up top and carry the tent down to the sand.",
+  "hikeKm": 0.3,
+  "src": [
+   "https://theirishinsider.ie/wanderlist/travel-in-ireland/wild-camping-ireland/"
+  ],
+  "facilities": {
+   "shop": {
+    "km": 5.35,
+    "min": 83,
+    "name": "Gala"
+   },
+   "food": {
+    "km": 0.12,
+    "min": 2,
+    "name": ""
+   },
+   "parking": {
+    "km": 0.09,
+    "min": 1,
+    "name": ""
+   },
+   "toilets": {
+    "km": 3.64,
+    "min": 57,
+    "name": ""
+   },
+   "pub": {
+    "km": 4.29,
+    "min": 67,
+    "name": "Laurentic Bar"
+   }
+  }
+ },
+ {
+  "id": 49,
+  "name": "Silver Strand, Malin Beg",
+  "county": "Donegal",
+  "type": "beach",
+  "access": "hike",
+  "lat": 54.666,
+  "lng": -8.779,
+  "desc": "Perfect horseshoe at the end of the Glencolmcille road, reached down 174 steps. Carry everything in; sunsets are worth it.",
+  "hikeKm": 0.5,
+  "src": [
+   "https://secretireland.ie/ultimate-guide-to-wild-camping-spots-in-ireland-explore-the-best-of-nature/"
+  ],
+  "facilities": {
+   "pub": {
+    "km": 5.66,
+    "min": 88,
+    "name": "Biddy's Crossroads Bar - Tigh Bhiddy"
+   },
+   "parking": {
+    "km": 0.05,
+    "min": 1,
+    "name": ""
+   },
+   "food": {
+    "km": 5.18,
+    "min": 81,
+    "name": ""
+   },
+   "shop": {
+    "km": 5.7,
+    "min": 89,
+    "name": "Byrnes Foodstore"
+   }
+  }
+ },
+ {
+  "id": 50,
+  "name": "Tramore Beach, Dunfanaghy",
+  "county": "Donegal",
+  "type": "beach",
+  "access": "hike",
+  "lat": 55.196,
+  "lng": -7.995,
+  "desc": "Wild back strand reached through big dunes from Horn Head bridge — 25 minutes' walk keeps the crowds away entirely.",
+  "hikeKm": 1.8,
+  "src": [
+   "https://secretireland.ie/ultimate-guide-to-wild-camping-spots-in-ireland-explore-the-best-of-nature/"
+  ],
+  "facilities": {
+   "food": {
+    "km": 2.0,
+    "min": 31,
+    "name": "The Rusty Oven"
+   },
+   "pub": {
+    "km": 2.02,
+    "min": 31,
+    "name": "Patsy Dan's"
+   },
+   "shop": {
+    "km": 2.07,
+    "min": 32,
+    "name": "Centra"
+   },
+   "parking": {
+    "km": 1.28,
+    "min": 20,
+    "name": ""
+   },
+   "toilets": {
+    "km": 2.01,
+    "min": 31,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 51,
+  "name": "Bluestack Mountains (Lough Eske side)",
+  "county": "Donegal",
+  "type": "mountain",
+  "access": "hike",
+  "lat": 54.725,
+  "lng": -8.05,
+  "desc": "Granite wilderness at the start of the Bluestack Way above Lough Eske. Corrie lakes, zero crowds, proper remoteness.",
+  "hikeKm": 3.0,
+  "src": [
+   "https://www.reddit.com/r/WildCampingIreland/comments/1qxv9wz/looking_for_a_3_day_hike/"
+  ],
+  "facilities": {
+   "parking": {
+    "km": 2.77,
+    "min": 43,
+    "name": ""
+   },
+   "food": {
+    "km": 3.26,
+    "min": 51,
+    "name": "Harvey's Point"
+   },
+   "pub": {
+    "km": 5.36,
+    "min": 84,
+    "name": "Biddy's o'Barnes"
+   }
+  }
+ },
+ {
+  "id": 52,
+  "name": "Sliabh Liag (Slieve League)",
+  "county": "Donegal",
+  "type": "coast",
+  "access": "hike",
+  "lat": 54.6517,
+  "lng": -8.7072,
+  "desc": "Among Europe's highest sea cliffs. Camp back from the edge off the Pilgrim's Path for a sunset you won't forget.",
+  "hikeKm": 2.0,
+  "src": [
+   "https://secretireland.ie/ultimate-guide-to-wild-camping-spots-in-ireland-explore-the-best-of-nature/"
+  ],
+  "facilities": {
+   "food": {
+    "km": 4.33,
+    "min": 67,
+    "name": "Ti Linn Café & Craft Shop"
+   },
+   "parking": {
+    "km": 2.32,
+    "min": 36,
+    "name": ""
+   },
+   "toilets": {
+    "km": 3.94,
+    "min": 61,
+    "name": ""
+   },
+   "shop": {
+    "km": 4.8,
+    "min": 75,
+    "name": "Quinns"
+   },
+   "pub": {
+    "km": 4.81,
+    "min": 75,
+    "name": "John the miner's"
+   }
+  }
+ },
+ {
+  "id": 53,
+  "name": "Blue Lough, Mournes",
+  "county": "Down",
+  "type": "lake",
+  "access": "hike",
+  "lat": 54.1587,
+  "lng": -5.9686,
+  "desc": "Corrie lake under Slieve Binnian's tors in the Annalong Valley — the Mournes' classic first wild camp. Park at Carrick Little.",
+  "hikeKm": 3.0,
+  "src": [
+   "https://www.reddit.com/r/irishtourism/comments/nejzjv/wild_camping_in_ireland/"
+  ],
+  "facilities": {
+   "toilets": {
+    "km": 4.18,
+    "min": 65,
+    "name": ""
+   },
+   "parking": {
+    "km": 3.19,
+    "min": 50,
+    "name": ""
+   },
+   "food": {
+    "km": 3.46,
+    "min": 54,
+    "name": "Carrick Cottage Cafe"
+   },
+   "water": {
+    "km": 5.95,
+    "min": 93,
+    "name": ""
+   },
+   "shop": {
+    "km": 5.9,
+    "min": 92,
+    "name": "Today Local"
+   }
+  }
+ },
+ {
+  "id": 54,
+  "name": "Slieve Donard col",
+  "county": "Down",
+  "type": "mountain",
+  "access": "hike",
+  "lat": 54.184,
+  "lng": -5.933,
+  "desc": "High saddle beside the Mourne Wall below Northern Ireland's highest peak. Watch the lights of Newcastle come on far below.",
+  "hikeKm": 4.0,
+  "src": [
+   "https://www.reddit.com/r/irishtourism/comments/nejzjv/wild_camping_in_ireland/"
+  ],
+  "facilities": {
+   "food": {
+    "km": 3.33,
+    "min": 52,
+    "name": ""
+   },
+   "pub": {
+    "km": 3.33,
+    "min": 52,
+    "name": "N. Macken"
+   },
+   "shop": {
+    "km": 3.31,
+    "min": 52,
+    "name": "The Harbour Shop"
+   },
+   "water": {
+    "km": 5.12,
+    "min": 80,
+    "name": ""
+   },
+   "parking": {
+    "km": 3.01,
+    "min": 47,
+    "name": ""
+   },
+   "toilets": {
+    "km": 3.35,
+    "min": 52,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 55,
+  "name": "Glenbarrow (Slieve Blooms)",
+  "county": "Laois",
+  "type": "forest",
+  "access": "walk",
+  "lat": 53.1221,
+  "lng": -7.452,
+  "desc": "Waterfalls on the young River Barrow with beginner-friendly wild camping along the Slieve Bloom Way. Gentle and green.",
+  "hikeKm": 1.0,
+  "src": [
+   "https://www.reddit.com/r/WildCampingIreland/comments/1qxv9wz/looking_for_a_3_day_hike/"
+  ],
+  "facilities": {
+   "pub": {
+    "km": 3.35,
+    "min": 52,
+    "name": "Village Tap"
+   },
+   "food": {
+    "km": 5.65,
+    "min": 88,
+    "name": "Angelo's"
+   },
+   "shop": {
+    "km": 5.63,
+    "min": 88,
+    "name": "Londis"
+   },
+   "toilets": {
+    "km": 3.35,
+    "min": 52,
+    "name": ""
+   },
+   "water": {
+    "km": 1.66,
+    "min": 26,
+    "name": ""
+   },
+   "parking": {
+    "km": 0.14,
+    "min": 2,
+    "name": "Slieve Bloom Way Car Park"
+   }
+  }
+ },
+ {
+  "id": 56,
+  "name": "Barrow Way – St Mullins",
+  "county": "Carlow",
+  "type": "trail",
+  "access": "walk",
+  "lat": 52.491,
+  "lng": -6.8964,
+  "desc": "Grassy towpath camping where the Barrow turns tidal below the monastic village. Canoe-tourer and bikepacker favourite.",
+  "hikeKm": 0.4,
+  "src": [
+   "https://www.reddit.com/r/WildCampingIreland/comments/1u4n2bq/seeking_advice_on_identifying_suitable_spots_to/"
+  ],
+  "facilities": {
+   "shop": {
+    "km": 5.89,
+    "min": 92,
+    "name": ""
+   },
+   "toilets": {
+    "km": 2.1,
+    "min": 33,
+    "name": ""
+   },
+   "pub": {
+    "km": 1.48,
+    "min": 23,
+    "name": "Byrne's"
+   },
+   "parking": {
+    "km": 2.11,
+    "min": 33,
+    "name": ""
+   },
+   "water": {
+    "km": 2.2,
+    "min": 34,
+    "name": ""
+   },
+   "shower": {
+    "km": 2.1,
+    "min": 33,
+    "name": ""
+   },
+   "food": {
+    "km": 2.22,
+    "min": 35,
+    "name": "Mullicháin Cafe"
+   }
+  }
+ },
+ {
+  "id": 57,
+  "name": "Lough Gill shore",
+  "county": "Leitrim",
+  "type": "lake",
+  "access": "drive",
+  "lat": 54.2501,
+  "lng": -8.3708,
+  "desc": "Lay-by overnight on the lake of Yeats's Isle of Innisfree. An easy, scenic van stop between Sligo and Dromahair.",
+  "hikeKm": 0.0,
+  "src": [
+   "https://www.dreambigtravelfarblog.com/blog/wild-camping-spots-ireland"
+  ],
+  "facilities": {
+   "parking": {
+    "km": 1.27,
+    "min": 20,
+    "name": ""
+   },
+   "shop": {
+    "km": 3.97,
+    "min": 62,
+    "name": "Mace"
+   },
+   "toilets": {
+    "km": 4.1,
+    "min": 64,
+    "name": ""
+   },
+   "food": {
+    "km": 5.76,
+    "min": 90,
+    "name": "Riverbank Restaurant"
+   }
+  }
+ },
+ {
+  "id": 58,
+  "name": "Mullagh Lough",
+  "county": "Cavan",
+  "type": "lake",
+  "access": "drive",
+  "lat": 53.8115,
+  "lng": -6.9486,
+  "desc": "Reedy fishing lake with picnic tables and bins by the shore. Low-drama lakeside overnight in drumlin country; midges in July.",
+  "hikeKm": 0.0,
+  "src": [
+   "https://www.dreambigtravelfarblog.com/blog/wild-camping-spots-ireland"
+  ],
+  "facilities": {
+   "shop": {
+    "km": 0.09,
+    "min": 1,
+    "name": "Centra"
+   },
+   "toilets": {
+    "km": 5.64,
+    "min": 88,
+    "name": ""
+   },
+   "food": {
+    "km": 0.1,
+    "min": 2,
+    "name": "Moonwok"
+   },
+   "pub": {
+    "km": 0.24,
+    "min": 4,
+    "name": "John Farrell's"
+   },
+   "parking": {
+    "km": 0.06,
+    "min": 1,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 59,
+  "name": "Baginbun Beach",
+  "county": "Wexford",
+  "type": "beach",
+  "access": "walk",
+  "lat": 52.1768,
+  "lng": -6.83,
+  "desc": "Where the Normans landed in 1170. Red sandstone headland, sheltered sand, and sunrise-to-sunset light on the Hook.",
+  "hikeKm": 0.3,
+  "src": [
+   "https://www.dreambigtravelfarblog.com/blog/wild-camping-spots-ireland"
+  ],
+  "facilities": {
+   "shop": {
+    "km": 1.83,
+    "min": 28,
+    "name": "Londis"
+   },
+   "food": {
+    "km": 1.67,
+    "min": 26,
+    "name": "Neville’s"
+   },
+   "pub": {
+    "km": 1.68,
+    "min": 26,
+    "name": "Tom Neville's"
+   },
+   "parking": {
+    "km": 0.15,
+    "min": 2,
+    "name": "Baginbun car park"
+   },
+   "shower": {
+    "km": 0.05,
+    "min": 1,
+    "name": ""
+   },
+   "toilets": {
+    "km": 0.25,
+    "min": 4,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 60,
+  "name": "Hook Head",
+  "county": "Wexford",
+  "type": "coast",
+  "access": "drive",
+  "lat": 52.1232,
+  "lng": -6.9305,
+  "desc": "Beside the world's oldest working lighthouse. Van parking on the limestone shelf; whales pass in autumn.",
+  "hikeKm": 0.1,
+  "src": [
+   "https://www.dreambigtravelfarblog.com/blog/wild-camping-spots-ireland"
+  ],
+  "facilities": {
+   "shop": {
+    "km": 5.05,
+    "min": 79,
+    "name": "Spar"
+   },
+   "pub": {
+    "km": 5.1,
+    "min": 80,
+    "name": "Power's Bar"
+   },
+   "food": {
+    "km": 0.13,
+    "min": 2,
+    "name": "Hook Lighthouse Cafe"
+   },
+   "toilets": {
+    "km": 1.85,
+    "min": 29,
+    "name": ""
+   },
+   "parking": {
+    "km": 0.08,
+    "min": 1,
+    "name": ""
+   }
+  }
+ },
+ {
+  "id": 61,
+  "name": "Kilteery Pier",
+  "county": "Limerick",
+  "type": "coast",
+  "access": "drive",
+  "lat": 52.5945,
+  "lng": -9.2242,
+  "desc": "Sleepy Shannon-estuary pier with picnic tables and evening swimmers. Ask locally and you'll be left in peace.",
+  "hikeKm": 0.0,
+  "src": [
+   "https://www.dreambigtravelfarblog.com/blog/wild-camping-spots-ireland"
+  ],
+  "facilities": {
+   "shop": {
+    "km": 4.49,
+    "min": 70,
+    "name": "P. O´Ruairc"
+   },
+   "food": {
+    "km": 4.88,
+    "min": 76,
+    "name": "Taste"
+   },
+   "water": {
+    "km": 4.86,
+    "min": 76,
+    "name": ""
+   },
+   "toilets": {
+    "km": 4.21,
+    "min": 66,
+    "name": ""
+   },
+   "shower": {
+    "km": 4.21,
+    "min": 66,
+    "name": ""
+   },
+   "parking": {
+    "km": 1.9,
+    "min": 30,
+    "name": ""
+   }
+  }
+ }
+]

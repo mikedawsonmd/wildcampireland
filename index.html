@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>WildCamp Ireland — Find your patch of the wild</title>
+<meta name="description" content="Community-sourced wild camping spots across Ireland — beaches, loughs, mountains and forests, with walking distances to pubs, toilets and water.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⛺</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-tent">⛺</span>
+    <div class="brand-text">
+      <h1>WildCamp <span>Ireland</span></h1>
+      <p class="tagline">find your patch of the wild ☘️</p>
+    </div>
+  </div>
+  <div class="topbar-actions">
+    <button id="favesToggle" class="chip chip-fave" aria-pressed="false" title="Show favourites">
+      <span class="heart">♥</span> <span id="favesCount">0</span>
+    </button>
+    <button id="aboutBtn" class="chip" title="About & camping code">?</button>
+  </div>
+</header>
+
+<nav class="filterbar" aria-label="Filters">
+  <div class="filter-row scroll-x" id="typeChips">
+    <button class="chip type-chip active" data-type="all">🌍 All</button>
+    <button class="chip type-chip" data-type="beach">🏖️ Beach</button>
+    <button class="chip type-chip" data-type="lake">🌊 Lough</button>
+    <button class="chip type-chip" data-type="mountain">⛰️ Mountain</button>
+    <button class="chip type-chip" data-type="forest">🌲 Forest</button>
+    <button class="chip type-chip" data-type="coast">🌅 Coast</button>
+    <button class="chip type-chip" data-type="island">🏝️ Island</button>
+    <button class="chip type-chip" data-type="trail">🥾 Trail</button>
+    <button class="chip type-chip" data-type="river">💧 River</button>
+  </div>
+  <div class="filter-row filter-row-2">
+    <select id="countySelect" class="county-select" aria-label="Filter by county">
+      <option value="all">All counties</option>
+    </select>
+    <button id="facilitiesBtn" class="chip facilities-btn">
+      🚻 Facilities <span id="facFilterCount" class="fac-count" hidden></span>
+    </button>
+    <span class="result-count" id="resultCount"></span>
+  </div>
+  <div class="facilities-panel" id="facilitiesPanel" hidden>
+    <p class="fac-title">Must have, within walking distance of camp:</p>
+    <div class="fac-checks" id="facChecks">
+      <label><input type="checkbox" value="toilets"> 🚻 Toilets</label>
+      <label><input type="checkbox" value="water"> 🚰 Drinking water</label>
+      <label><input type="checkbox" value="pub"> 🍺 Pub</label>
+      <label><input type="checkbox" value="food"> 🍳 Café / food</label>
+      <label><input type="checkbox" value="shop"> 🛒 Shop</label>
+      <label><input type="checkbox" value="shower"> 🚿 Shower</label>
+      <label><input type="checkbox" value="parking"> 🅿️ Parking</label>
+    </div>
+    <div class="walk-slider">
+      <label for="walkRange">Max walk: <strong id="walkLabel">45 min</strong></label>
+      <input type="range" id="walkRange" min="15" max="90" step="15" value="45">
+    </div>
+    <button class="chip clear-fac" id="clearFac">Clear</button>
+  </div>
+</nav>
+
+<main class="content">
+  <div id="map" class="map-pane" role="application" aria-label="Map of wild camping spots"></div>
+  <section id="listPane" class="list-pane" aria-label="List of wild camping spots">
+    <div id="cards" class="cards"></div>
+    <div id="emptyState" class="empty-state" hidden>
+      <div class="empty-art">🔥</div>
+      <p>No spots match those filters.<br>Loosen up and the wild will provide.</p>
+    </div>
+    <footer class="list-footer">
+      <p>Sourced from the Irish wild camping community — Reddit, blogs &amp; hikers.
+         Most land in Ireland is private: arrive late, leave early, ask if in doubt,
+         and <strong>leave no trace</strong>. 🏕️</p>
+    </footer>
+  </section>
+</main>
+
+<nav class="viewswitch" aria-label="View">
+  <button id="viewMap" class="vs-btn active">🗺️ Map</button>
+  <button id="viewList" class="vs-btn">📋 List</button>
+</nav>
+
+<!-- Spot detail sheet -->
+<div class="sheet-backdrop" id="sheetBackdrop" hidden></div>
+<article class="sheet" id="sheet" hidden aria-modal="true" role="dialog">
+  <div class="sheet-handle"></div>
+  <div class="sheet-body" id="sheetBody"></div>
+</article>
+
+<!-- About modal -->
+<div class="sheet-backdrop" id="aboutBackdrop" hidden></div>
+<article class="sheet about-sheet" id="aboutSheet" hidden aria-modal="true" role="dialog">
+  <div class="sheet-handle"></div>
+  <div class="sheet-body">
+    <h2>⛺ WildCamp Ireland</h2>
+    <p>A community map of wild camping spots across the island of Ireland,
+       gathered from Reddit threads, blogs and hikers' reports. Facility walking
+       times are estimated from OpenStreetMap data (straight-line distance ×1.3
+       at 5&nbsp;km/h) — treat them as a guide, not gospel.</p>
+    <h3>The unwritten rules ☘️</h3>
+    <ul>
+      <li>Wild camping in Ireland mostly happens on private or state land without
+          formal right — be discreet: pitch late, leave early.</li>
+      <li>Ask the landowner when there's a house in sight. A friendly word works wonders.</li>
+      <li><strong>Leave no trace.</strong> Take every scrap home. Bury nothing.</li>
+      <li>Skip the campfire — use a stove. Ireland's uplands burn shockingly easily.</li>
+      <li>No camping where signs say otherwise (e.g. the Glendalough valley), and
+          never in a farmer's field with livestock.</li>
+      <li>Check tides for island and strand spots, and the forecast for hill camps.</li>
+    </ul>
+    <p class="about-foot">Leave only footprints. 🥾</p>
+    <button class="btn btn-primary" id="aboutClose">Grand, got it</button>
+  </div>
+</article>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="data/spots.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
