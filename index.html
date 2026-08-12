@@ -50,6 +50,11 @@
     <button class="chip type-chip" data-type="river">💧 River</button>
   </div>
   <div class="filter-row filter-row-2">
+    <div class="camp-toggle" id="campToggle" role="group" aria-label="Camping style">
+      <button class="camp-opt active" data-camp="all">All</button>
+      <button class="camp-opt" data-camp="tent">⛺ Tent</button>
+      <button class="camp-opt" data-camp="van">🚐 Van</button>
+    </div>
     <select id="countySelect" class="county-select" aria-label="Filter by county">
       <option value="all">All counties</option>
     </select>
@@ -135,29 +140,36 @@
           </select>
         </label>
       </div>
+      <label class="field">Good for *
+        <select id="sgCamp" required>
+          <option value="tent">⛺ Tent camping</option>
+          <option value="van">🚐 Campervan / motorhome</option>
+          <option value="both">⛺🚐 Both tent and campervan</option>
+        </select>
+      </label>
       <div class="field">
         <span>Location</span>
         <div class="pin-row">
           <button type="button" class="btn btn-secondary" id="sgPickBtn">
             <span class="material-symbols-rounded">pin_drop</span> Pick on map
           </button>
-          <span id="sgCoords" class="sg-coords">No pin dropped yet</span>
+          <button type="button" class="btn btn-secondary" id="sgLocateBtn">
+            <span class="material-symbols-rounded">my_location</span> Use my location
+          </button>
         </div>
+        <span id="sgCoords" class="sg-coords">No pin dropped yet</span>
       </div>
       <label class="field">Tell us about it *
         <textarea id="sgDesc" required rows="3" maxlength="500"
           placeholder="What's it like? How do you get there? Parking, walk-in distance, water, the nearest pub…"></textarea>
       </label>
       <div class="btn-row">
-        <button type="submit" class="btn btn-primary" data-via="github">
-          <span class="material-symbols-rounded">bug_report</span> Submit on GitHub
-        </button>
-        <button type="submit" class="btn btn-secondary" data-via="email">
-          <span class="material-symbols-rounded">mail</span> Send by email
+        <button type="submit" class="btn btn-primary">
+          <span class="material-symbols-rounded">mail</span> Send suggestion
         </button>
       </div>
-      <p class="photo-note">GitHub opens a pre-filled issue (needs a GitHub account);
-         email opens your mail app. Either way a human reviews it before it goes live.</p>
+      <p class="photo-note">This opens a pre-filled email in your mail app. Every
+         suggestion is reviewed by a human before it goes on the map.</p>
     </form>
   </div>
 </article>

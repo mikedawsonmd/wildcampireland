@@ -93,7 +93,17 @@ h1, h2, h3, .brand-text, .vs-btn, .btn { font-family: 'Baloo 2', 'Nunito', sans-
 .filter-row { display: flex; gap: 6px; align-items: center; }
 .scroll-x { overflow-x: auto; scrollbar-width: none; padding-bottom: 6px; }
 .scroll-x::-webkit-scrollbar { display: none; }
-.filter-row-2 { padding-top: 2px; flex-wrap: nowrap; }
+.filter-row-2 { padding-top: 2px; flex-wrap: wrap; }
+.camp-toggle {
+  display: inline-flex; background: var(--white);
+  border: 1.5px solid rgba(31,94,67,.25); border-radius: 999px; padding: 2px;
+}
+.camp-opt {
+  border: none; background: transparent; cursor: pointer;
+  font: inherit; font-weight: 700; font-size: .8rem; color: var(--green);
+  padding: 5px 11px; border-radius: 999px; white-space: nowrap;
+}
+.camp-opt.active { background: var(--green); color: var(--cream); }
 .county-select {
   font: inherit; font-weight: 700; font-size: .82rem; color: var(--green);
   border: 1.5px solid rgba(31,94,67,.25); border-radius: 999px;
@@ -171,6 +181,7 @@ body.view-list .map-pane { visibility: hidden; }
   background: var(--green-light); color: var(--green);
 }
 .badge.access { background: var(--sunset-soft); color: var(--sunset); }
+.badge.camp { background: var(--green); color: var(--cream); }
 .badge.fac { background: var(--cream-dark); color: var(--ink-soft); font-weight: 600; }
 .fave-btn {
   position: absolute; top: 10px; right: 10px;
@@ -199,8 +210,9 @@ body.view-list .map-pane { visibility: hidden; }
   border: 2px solid var(--cream);
 }
 .tent-marker .pin span { transform: rotate(45deg); font-size: 15px; }
+.tent-marker.van .pin { background: var(--sky); }   /* campervan spots */
 .tent-marker.faved .pin {
-  background: #ffd9e3;               /* light pink for favourites */
+  background: #ffd9e3;               /* light pink for favourites (wins over van) */
   border-color: #fff;
   box-shadow: 0 3px 10px rgba(231, 111, 81, .45);
 }
@@ -312,6 +324,25 @@ body.view-list .map-pane { visibility: hidden; }
 }
 .pick-toast[hidden] { display: none; }
 .tent-marker.picking .pin { background: var(--sunset); }
+
+/* locate button + you-are-here */
+.locate-btn {
+  width: 34px; height: 34px;
+  border: none; border-radius: 8px;
+  background: var(--white); color: var(--green);
+  box-shadow: 0 1px 5px rgba(0,0,0,.3);
+  cursor: pointer; margin-bottom: 6px;
+  display: flex; align-items: center; justify-content: center;
+}
+.locate-btn:hover { background: var(--cream); }
+.locate-btn .material-symbols-rounded { font-size: 1.25rem; vertical-align: middle; }
+.locate-btn.locating { animation: pulse 1s ease-in-out infinite; }
+@keyframes pulse { 50% { opacity: .45; } }
+.you-marker .you-dot {
+  width: 18px; height: 18px; border-radius: 50%;
+  background: var(--sky); border: 3px solid #fff;
+  box-shadow: 0 0 0 3px rgba(69,123,157,.35), 0 1px 4px rgba(0,0,0,.4);
+}
 
 /* ---------- Fullscreen gallery ---------- */
 .lightbox {

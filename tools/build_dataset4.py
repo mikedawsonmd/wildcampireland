@@ -62,14 +62,25 @@ for i, s in enumerate(SPOTS):
     print(f'{i+1:2d}/{len(SPOTS)} {name:42s} ' + (",".join(f"{k}:{v['min']}m" for k, v in sorted(fac.items())) or "none"))
     time.sleep(6)
 
+# Roadside/pier/pass spots that suit a campervan overnight but not a tent pitch.
+VAN_ONLY = {"Castletownbere pier", "Molls Gap", "Lough Gill shore",
+            "Mullagh Lough", "Kilteery Pier"}
+def camp_style(s):
+    if s["name"] in VAN_ONLY:
+        return "van"
+    if s["access"] == "drive":   # drive-up: park a van or pitch a tent
+        return "both"
+    return "tent"                # walk-in / hike-in: tent only
+
 if len(done) == len(SPOTS):
     out = []
     for i, s in enumerate(SPOTS):
         lat, lng = COORDS[s["name"]]
         out.append({
             "id": i + 1, "name": s["name"], "county": s["county"], "type": s["type"],
-            "access": s["access"], "lat": lat, "lng": lng, "desc": s["desc"],
-            "hikeKm": s["hike_km"], "src": s["src"], "facilities": done[s["name"]],
+            "access": s["access"], "camp": camp_style(s), "lat": lat, "lng": lng,
+            "desc": s["desc"], "hikeKm": s["hike_km"], "src": s["src"],
+            "facilities": done[s["name"]],
         })
     json.dump(out, open("spots.json", "w"), ensure_ascii=False, indent=1)
     print("COMPLETE: wrote spots.json", len(out))

@@ -19,7 +19,8 @@
     "min": 38,
     "name": "Glenmacnass Waterfall"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 2,
@@ -65,7 +66,8 @@
     "min": 50,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 3,
@@ -86,7 +88,8 @@
     "min": 29,
     "name": "Baravore car park"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 4,
@@ -107,7 +110,8 @@
     "min": 26,
     "name": "Baravore car park"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 5,
@@ -133,7 +137,8 @@
     "min": 38,
     "name": "Armoury Café"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 6,
@@ -169,7 +174,8 @@
     "min": 32,
     "name": "Mobile Cafe"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 7,
@@ -210,7 +216,8 @@
     "min": 74,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 8,
@@ -251,7 +258,8 @@
     "min": 52,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 9,
@@ -292,7 +300,8 @@
     "min": 15,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 10,
@@ -338,7 +347,8 @@
     "min": 46,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 11,
@@ -369,7 +379,8 @@
     "min": 41,
     "name": "Trails Cafe"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 12,
@@ -395,7 +406,8 @@
     "min": 78,
     "name": "Baravore car park"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 13,
@@ -431,7 +443,8 @@
     "min": 93,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 14,
@@ -482,7 +495,8 @@
     "min": 7,
     "name": "Oifig An Phoist Ceann Trá"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 15,
@@ -528,7 +542,8 @@
     "min": 85,
     "name": "Oifig An Phoist Ceann Trá"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 16,
@@ -564,7 +579,8 @@
     "min": 44,
     "name": "Krugers Pub"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 17,
@@ -615,7 +631,8 @@
     "min": 13,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 18,
@@ -646,7 +663,8 @@
     "min": 71,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 19,
@@ -692,7 +710,8 @@
     "min": 18,
     "name": "Keatings Bar"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 20,
@@ -738,7 +757,8 @@
     "min": 37,
     "name": "Keatings Bar"
    }
-  }
+  },
+  "camp": "both"
  },
  {
   "id": 21,
@@ -779,7 +799,8 @@
     "min": 3,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 22,
@@ -820,7 +841,8 @@
     "min": 61,
     "name": ""
    }
-  }
+  },
+  "camp": "both"
  },
  {
   "id": 23,
@@ -846,7 +868,8 @@
     "min": 54,
     "name": ""
    }
-  }
+  },
+  "camp": "both"
  },
  {
   "id": 24,
@@ -882,7 +905,8 @@
     "min": 65,
     "name": "Siopa an Phobail"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 25,
@@ -908,7 +932,8 @@
     "min": 1,
     "name": "Moll's Gap Parking"
    }
-  }
+  },
+  "camp": "van"
  },
  {
   "id": 26,
@@ -934,7 +959,8 @@
     "min": 81,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 27,
@@ -985,7 +1011,8 @@
     "min": 10,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 28,
@@ -1026,7 +1053,8 @@
     "min": 1,
     "name": ""
    }
-  }
+  },
+  "camp": "van"
  },
  {
   "id": 29,
@@ -1057,7 +1085,8 @@
     "min": 57,
     "name": "Cable-car café"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 30,
@@ -1083,7 +1112,8 @@
     "min": 25,
     "name": "Kilclooney Wood"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 31,
@@ -1124,7 +1154,8 @@
     "min": 11,
     "name": "Engine House Bar & Cafe"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 32,
@@ -1165,7 +1196,8 @@
     "min": 13,
     "name": ""
    }
-  }
+  },
+  "camp": "both"
  },
  {
   "id": 33,
@@ -1206,7 +1238,8 @@
     "min": 1,
     "name": "Engine House Bar & Cafe"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 34,
@@ -1247,7 +1280,8 @@
     "min": 57,
     "name": ""
    }
-  }
+  },
+  "camp": "both"
  },
  {
   "id": 35,
@@ -1283,7 +1317,8 @@
     "min": 62,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 36,
@@ -1309,7 +1344,8 @@
     "min": 49,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 37,
@@ -1355,7 +1391,8 @@
     "min": 1,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 38,
@@ -1406,7 +1443,8 @@
     "min": 32,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 39,
@@ -1432,7 +1470,8 @@
     "min": 80,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 40,
@@ -1473,7 +1512,8 @@
     "min": 35,
     "name": "Puddleducks Café"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 41,
@@ -1499,7 +1539,8 @@
     "min": 22,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 42,
@@ -1540,7 +1581,8 @@
     "min": 63,
     "name": "Lourdie's"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 43,
@@ -1561,7 +1603,8 @@
     "min": 41,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 44,
@@ -1597,7 +1640,8 @@
     "min": 24,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 45,
@@ -1638,7 +1682,8 @@
     "min": 2,
     "name": ""
    }
-  }
+  },
+  "camp": "both"
  },
  {
   "id": 46,
@@ -1674,7 +1719,8 @@
     "min": 15,
     "name": ""
    }
-  }
+  },
+  "camp": "both"
  },
  {
   "id": 47,
@@ -1715,7 +1761,8 @@
     "min": 9,
     "name": ""
    }
-  }
+  },
+  "camp": "both"
  },
  {
   "id": 48,
@@ -1756,7 +1803,8 @@
     "min": 67,
     "name": "Laurentic Bar"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 49,
@@ -1792,7 +1840,8 @@
     "min": 89,
     "name": "Byrnes Foodstore"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 50,
@@ -1833,7 +1882,8 @@
     "min": 31,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 51,
@@ -1864,7 +1914,8 @@
     "min": 84,
     "name": "Biddy's o'Barnes"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 52,
@@ -1905,7 +1956,8 @@
     "min": 75,
     "name": "John the miner's"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 53,
@@ -1946,7 +1998,8 @@
     "min": 92,
     "name": "Today Local"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 54,
@@ -1992,7 +2045,8 @@
     "min": 52,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 55,
@@ -2038,7 +2092,8 @@
     "min": 2,
     "name": "Slieve Bloom Way Car Park"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 56,
@@ -2089,7 +2144,8 @@
     "min": 35,
     "name": "Mullicháin Cafe"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 57,
@@ -2125,7 +2181,8 @@
     "min": 90,
     "name": "Riverbank Restaurant"
    }
-  }
+  },
+  "camp": "van"
  },
  {
   "id": 58,
@@ -2166,7 +2223,8 @@
     "min": 1,
     "name": ""
    }
-  }
+  },
+  "camp": "van"
  },
  {
   "id": 59,
@@ -2212,7 +2270,8 @@
     "min": 4,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 60,
@@ -2253,7 +2312,8 @@
     "min": 1,
     "name": ""
    }
-  }
+  },
+  "camp": "both"
  },
  {
   "id": 61,
@@ -2299,7 +2359,8 @@
     "min": 30,
     "name": ""
    }
-  }
+  },
+  "camp": "van"
  },
  {
   "id": 62,
@@ -2351,7 +2412,8 @@
     "min": 10,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 63,
@@ -2402,7 +2464,8 @@
     "min": 45,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 64,
@@ -2438,7 +2501,8 @@
     "min": 34,
     "name": "Droumnea"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 65,
@@ -2489,7 +2553,8 @@
     "min": 85,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 66,
@@ -2525,7 +2590,8 @@
     "min": 8,
     "name": "Cronin's Cafe"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 67,
@@ -2571,7 +2637,8 @@
     "min": 50,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 68,
@@ -2622,7 +2689,8 @@
     "min": 2,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 69,
@@ -2664,7 +2732,8 @@
     "min": 32,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 70,
@@ -2700,7 +2769,8 @@
     "min": 54,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 71,
@@ -2741,7 +2811,8 @@
     "min": 15,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 72,
@@ -2782,7 +2853,8 @@
     "min": 54,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 73,
@@ -2828,7 +2900,8 @@
     "min": 66,
     "name": "Spar"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 74,
@@ -2859,7 +2932,8 @@
     "min": 10,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 75,
@@ -2891,7 +2965,8 @@
     "min": 84,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 76,
@@ -2927,7 +3002,8 @@
     "min": 5,
     "name": "Ballyronan Chinese Takeaway"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 77,
@@ -2968,6 +3044,7 @@
     "min": 4,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  }
 ]

@@ -19,6 +19,11 @@
     walk:  { emoji: '🚶', label: 'Short walk' },
     drive: { emoji: '🚐', label: 'Drive-up' },
   };
+  const CAMP_META = {
+    tent: { emoji: '⛺', label: 'Tent' },
+    van:  { emoji: '🚐', label: 'Campervan' },
+    both: { emoji: '⛺🚐', label: 'Tent or van' },
+  };
   const FAC_META = {
     toilets: { emoji: '🚻', label: 'Toilets' },
     water:   { emoji: '🚰', label: 'Drinking water' },
@@ -33,6 +38,7 @@
   const state = {
     type: 'all',
     county: 'all',
+    camp: 'all',
     facs: new Set(),
     maxWalk: 45,
     favesOnly: false,
@@ -46,6 +52,19 @@
   // ---------- map ----------
   const map = L.map('map', { zoomControl: false }).setView([53.4, -7.9], 7);
   L.control.zoom({ position: 'bottomright' }).addTo(map);
+
+  const LocateControl = L.Control.extend({
+    options: { position: 'bottomright' },
+    onAdd() {
+      const btn = L.DomUtil.create('button', 'locate-btn');
+      btn.id = 'locateBtn';
+      btn.title = 'Show my location';
+      btn.setAttribute('aria-label', 'Show my location');
+      btn.innerHTML = '<span class="material-symbols-rounded">my_location</span>';
+      L.DomEvent.on(btn, 'click', (e) => { L.DomEvent.stop(e); locateMe(); });
+      return btn;
+    },
+  });
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 18,
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
@@ -53,11 +72,50 @@
 
   const markers = new Map(); // id -> marker
 
+  // ---------- geolocation ----------
+  let youMarker = null;
+  function getPosition() {
+    return new Promise((resolve, reject) => {
+      if (!navigator.geolocation) return reject(new Error('unsupported'));
+      navigator.geolocation.getCurrentPosition(
+        p => resolve(L.latLng(p.coords.latitude, p.coords.longitude)),
+        reject,
+        { enableHighAccuracy: true, timeout: 10000, maximumAge: 60000 }
+      );
+    });
+  }
+  function showYouAreHere(latlng) {
+    if (youMarker) youMarker.remove();
+    youMarker = L.marker(latlng, {
+      icon: L.divIcon({
+        className: 'you-marker',
+        html: '<div class="you-dot"></div>',
+        iconSize: [22, 22], iconAnchor: [11, 11],
+      }),
+      zIndexOffset: 1000,
+      interactive: false,
+    }).addTo(map);
+  }
+  function locateMe() {
+    const btn = document.getElementById('locateBtn');
+    if (btn) btn.classList.add('locating');
+    getPosition().then(latlng => {
+      showYouAreHere(latlng);
+      map.flyTo(latlng, Math.max(map.getZoom(), 11), { duration: 0.8 });
+    }).catch(() => {
+      alert("Couldn't get your location. Check that location access is allowed for this site.");
+    }).finally(() => {
+      if (btn) btn.classList.remove('locating');
+    });
+  }
+  map.addControl(new LocateControl());
+
   function tentIcon(spot) {
     const faved = faves.has(spot.id);
+    const glyph = faved ? '❤️' : (spot.camp === 'van' ? '🚐' : '⛺');
     return L.divIcon({
-      className: 'tent-marker' + (faved ? ' faved' : ''),
-      html: `<div class="pin"><span>${faved ? '❤️' : '⛺'}</span></div>`,
+      className: 'tent-marker' + (faved ? ' faved' : '') + (spot.camp === 'van' ? ' van' : ''),
+      html: `<div class="pin"><span>${glyph}</span></div>`,
       iconSize: [34, 34], iconAnchor: [17, 32], popupAnchor: [0, -30],
     });
   }
@@ -83,6 +141,8 @@
   function spotMatches(spot) {
     if (state.type !== 'all' && spot.type !== state.type) return false;
     if (state.county !== 'all' && spot.county !== state.county) return false;
+    if (state.camp === 'tent' && spot.camp === 'van') return false;
+    if (state.camp === 'van' && spot.camp === 'tent') return false;
     if (state.favesOnly && !faves.has(spot.id)) return false;
     for (const f of state.facs) {
       const fac = spot.facilities[f];
@@ -147,6 +207,7 @@
       </div>
       <p class="card-desc">${spot.desc}</p>
       <div class="card-badges">
+        <span class="badge camp">${CAMP_META[spot.camp].emoji} ${CAMP_META[spot.camp].label}</span>
         <span class="badge access">${a.emoji} ${a.label}${hike}</span>
         ${facBadges}
       </div>
@@ -195,7 +256,7 @@
       <button class="sheet-fave${faved ? ' faved' : ''}" data-fave="${spot.id}"
               aria-label="Favourite"><span class="material-symbols-rounded">favorite</span></button>
       <h2>${t.emoji} ${spot.name}</h2>
-      <div class="card-sub">Co. ${spot.county} · ${t.label} · ${a.emoji} ${a.label}${hike}</div>
+      <div class="card-sub">Co. ${spot.county} · ${t.label} · ${CAMP_META[spot.camp].emoji} ${CAMP_META[spot.camp].label} · ${a.emoji} ${a.label}${hike}</div>
       <p class="sheet-desc">${spot.desc}</p>
       <div class="sheet-section">
         <h3>📸 Around the spot</h3>
@@ -362,11 +423,11 @@
   document.getElementById('pickCancel').addEventListener('click', () => {
     endPicking(); openSuggest();
   });
-  map.on('click', (e) => {
-    if (!picking) return;
-    pickedLatLng = e.latlng;
+
+  function setPin(latlng) {
+    pickedLatLng = latlng;
     if (pickMarker) pickMarker.remove();
-    pickMarker = L.marker(e.latlng, {
+    pickMarker = L.marker(latlng, {
       icon: L.divIcon({
         className: 'tent-marker picking',
         html: '<div class="pin"><span>📍</span></div>',
@@ -374,47 +435,62 @@
       }),
     }).addTo(map);
     document.getElementById('sgCoords').textContent =
-      `${e.latlng.lat.toFixed(5)}, ${e.latlng.lng.toFixed(5)}`;
+      `${latlng.lat.toFixed(5)}, ${latlng.lng.toFixed(5)}`;
+  }
+
+  document.getElementById('sgLocateBtn').addEventListener('click', (e) => {
+    const btn = e.currentTarget;
+    btn.disabled = true;
+    document.getElementById('sgCoords').textContent = 'Finding your location…';
+    getPosition().then(latlng => {
+      setPin(latlng);
+      showYouAreHere(latlng);
+    }).catch(() => {
+      document.getElementById('sgCoords').textContent =
+        "Couldn't get your location — try 'Pick on map'.";
+    }).finally(() => { btn.disabled = false; });
+  });
+  map.on('click', (e) => {
+    if (!picking) return;
+    setPin(e.latlng);
     endPicking();
     openSuggest();
   });
 
   document.getElementById('suggestForm').addEventListener('submit', (e) => {
     e.preventDefault();
-    const via = e.submitter?.dataset.via || 'github';
     const name = document.getElementById('sgName').value.trim();
     const county = sgCounty.value;
-    const typeSel = document.getElementById('sgType');
-    const typeLabel = typeSel.options[typeSel.selectedIndex].textContent;
+    const type = document.getElementById('sgType').value;
+    const camp = document.getElementById('sgCamp').value;
     const desc = document.getElementById('sgDesc').value.trim();
-    const coords = pickedLatLng
-      ? `${pickedLatLng.lat.toFixed(5)}, ${pickedLatLng.lng.toFixed(5)}`
-      : 'not provided';
+    const lat = pickedLatLng ? pickedLatLng.lat.toFixed(5) : '';
+    const lng = pickedLatLng ? pickedLatLng.lng.toFixed(5) : '';
     const mapLink = pickedLatLng
-      ? `https://www.openstreetmap.org/?mlat=${pickedLatLng.lat.toFixed(5)}&mlon=${pickedLatLng.lng.toFixed(5)}#map=15/${pickedLatLng.lat.toFixed(5)}/${pickedLatLng.lng.toFixed(5)}`
-      : '';
+      ? `https://www.openstreetmap.org/?mlat=${lat}&mlon=${lng}#map=15/${lat}/${lng}`
+      : '(no pin dropped)';
+    // Plain-text, listing-ready format — one field per line for easy copy-paste.
     const body = [
-      `**Spot name:** ${name}`,
-      `**County:** ${county}`,
-      `**Type:** ${typeLabel}`,
-      `**Coordinates:** ${coords}${mapLink ? `\n**Map:** ${mapLink}` : ''}`,
+      'New wild camping spot for WildCamp Ireland',
+      '===========================================',
       '',
-      '**Description / access / facilities:**',
+      `Name:        ${name}`,
+      `County:      ${county}`,
+      `Type:        ${type}`,
+      `Good for:    ${camp}`,
+      `Latitude:    ${lat || '(not provided)'}`,
+      `Longitude:   ${lng || '(not provided)'}`,
+      `Map:         ${mapLink}`,
+      '',
+      'Description (access, parking, walk-in, water, nearest pub):',
       desc,
       '',
-      '_Submitted via the WildCamp Ireland suggest-a-spot form._',
+      '-- Sent from the WildCamp Ireland suggest-a-spot form --',
     ].join('\n');
-    if (via === 'github') {
-      const url = 'https://github.com/mikedawsonmd/wildcampireland/issues/new' +
-        '?labels=spot-submission&title=' + encodeURIComponent(`New spot: ${name} (Co. ${county})`) +
-        '&body=' + encodeURIComponent(body);
-      window.open(url, '_blank', 'noopener');
-    } else {
-      const url = 'mailto:mikedawsonmd@protonmail.com' +
-        '?subject=' + encodeURIComponent(`WildCamp Ireland — new spot: ${name} (Co. ${county})`) +
-        '&body=' + encodeURIComponent(body.replace(/\*\*/g, ''));
-      window.location.href = url;
-    }
+    const url = 'mailto:mikedawsonmd@protonmail.com' +
+      '?subject=' + encodeURIComponent(`WildCamp Ireland — new spot: ${name} (Co. ${county})`) +
+      '&body=' + encodeURIComponent(body);
+    window.location.href = url;
   });
 
   // ---------- filter wiring ----------
@@ -423,6 +499,15 @@
       document.querySelectorAll('.type-chip').forEach(c => c.classList.remove('active'));
       chip.classList.add('active');
       state.type = chip.dataset.type;
+      render();
+    });
+  });
+
+  document.querySelectorAll('.camp-opt').forEach(opt => {
+    opt.addEventListener('click', () => {
+      document.querySelectorAll('.camp-opt').forEach(o => o.classList.remove('active'));
+      opt.classList.add('active');
+      state.camp = opt.dataset.camp;
       render();
     });
   });

@@ -20,7 +20,8 @@ window.SPOTS = [
     "min": 38,
     "name": "Glenmacnass Waterfall"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 2,
@@ -66,7 +67,8 @@ window.SPOTS = [
     "min": 50,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 3,
@@ -87,7 +89,8 @@ window.SPOTS = [
     "min": 29,
     "name": "Baravore car park"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 4,
@@ -108,7 +111,8 @@ window.SPOTS = [
     "min": 26,
     "name": "Baravore car park"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 5,
@@ -134,7 +138,8 @@ window.SPOTS = [
     "min": 38,
     "name": "Armoury Café"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 6,
@@ -170,7 +175,8 @@ window.SPOTS = [
     "min": 32,
     "name": "Mobile Cafe"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 7,
@@ -211,7 +217,8 @@ window.SPOTS = [
     "min": 74,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 8,
@@ -252,7 +259,8 @@ window.SPOTS = [
     "min": 52,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 9,
@@ -293,7 +301,8 @@ window.SPOTS = [
     "min": 15,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 10,
@@ -339,7 +348,8 @@ window.SPOTS = [
     "min": 46,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 11,
@@ -370,7 +380,8 @@ window.SPOTS = [
     "min": 41,
     "name": "Trails Cafe"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 12,
@@ -396,7 +407,8 @@ window.SPOTS = [
     "min": 78,
     "name": "Baravore car park"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 13,
@@ -432,7 +444,8 @@ window.SPOTS = [
     "min": 93,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 14,
@@ -483,7 +496,8 @@ window.SPOTS = [
     "min": 7,
     "name": "Oifig An Phoist Ceann Trá"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 15,
@@ -529,7 +543,8 @@ window.SPOTS = [
     "min": 85,
     "name": "Oifig An Phoist Ceann Trá"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 16,
@@ -565,7 +580,8 @@ window.SPOTS = [
     "min": 44,
     "name": "Krugers Pub"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 17,
@@ -616,7 +632,8 @@ window.SPOTS = [
     "min": 13,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 18,
@@ -647,7 +664,8 @@ window.SPOTS = [
     "min": 71,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 19,
@@ -693,7 +711,8 @@ window.SPOTS = [
     "min": 18,
     "name": "Keatings Bar"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 20,
@@ -739,7 +758,8 @@ window.SPOTS = [
     "min": 37,
     "name": "Keatings Bar"
    }
-  }
+  },
+  "camp": "both"
  },
  {
   "id": 21,
@@ -780,7 +800,8 @@ window.SPOTS = [
     "min": 3,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 22,
@@ -821,7 +842,8 @@ window.SPOTS = [
     "min": 61,
     "name": ""
    }
-  }
+  },
+  "camp": "both"
  },
  {
   "id": 23,
@@ -847,7 +869,8 @@ window.SPOTS = [
     "min": 54,
     "name": ""
    }
-  }
+  },
+  "camp": "both"
  },
  {
   "id": 24,
@@ -883,7 +906,8 @@ window.SPOTS = [
     "min": 65,
     "name": "Siopa an Phobail"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 25,
@@ -909,7 +933,8 @@ window.SPOTS = [
     "min": 1,
     "name": "Moll's Gap Parking"
    }
-  }
+  },
+  "camp": "van"
  },
  {
   "id": 26,
@@ -935,7 +960,8 @@ window.SPOTS = [
     "min": 81,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 27,
@@ -986,7 +1012,8 @@ window.SPOTS = [
     "min": 10,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 28,
@@ -1027,7 +1054,8 @@ window.SPOTS = [
     "min": 1,
     "name": ""
    }
-  }
+  },
+  "camp": "van"
  },
  {
   "id": 29,
@@ -1058,7 +1086,8 @@ window.SPOTS = [
     "min": 57,
     "name": "Cable-car café"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 30,
@@ -1084,7 +1113,8 @@ window.SPOTS = [
     "min": 25,
     "name": "Kilclooney Wood"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 31,
@@ -1125,7 +1155,8 @@ window.SPOTS = [
     "min": 11,
     "name": "Engine House Bar & Cafe"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 32,
@@ -1166,7 +1197,8 @@ window.SPOTS = [
     "min": 13,
     "name": ""
    }
-  }
+  },
+  "camp": "both"
  },
  {
   "id": 33,
@@ -1207,7 +1239,8 @@ window.SPOTS = [
     "min": 1,
     "name": "Engine House Bar & Cafe"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 34,
@@ -1248,7 +1281,8 @@ window.SPOTS = [
     "min": 57,
     "name": ""
    }
-  }
+  },
+  "camp": "both"
  },
  {
   "id": 35,
@@ -1284,7 +1318,8 @@ window.SPOTS = [
     "min": 62,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 36,
@@ -1310,7 +1345,8 @@ window.SPOTS = [
     "min": 49,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 37,
@@ -1356,7 +1392,8 @@ window.SPOTS = [
     "min": 1,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 38,
@@ -1407,7 +1444,8 @@ window.SPOTS = [
     "min": 32,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 39,
@@ -1433,7 +1471,8 @@ window.SPOTS = [
     "min": 80,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 40,
@@ -1474,7 +1513,8 @@ window.SPOTS = [
     "min": 35,
     "name": "Puddleducks Café"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 41,
@@ -1500,7 +1540,8 @@ window.SPOTS = [
     "min": 22,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 42,
@@ -1541,7 +1582,8 @@ window.SPOTS = [
     "min": 63,
     "name": "Lourdie's"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 43,
@@ -1562,7 +1604,8 @@ window.SPOTS = [
     "min": 41,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 44,
@@ -1598,7 +1641,8 @@ window.SPOTS = [
     "min": 24,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 45,
@@ -1639,7 +1683,8 @@ window.SPOTS = [
     "min": 2,
     "name": ""
    }
-  }
+  },
+  "camp": "both"
  },
  {
   "id": 46,
@@ -1675,7 +1720,8 @@ window.SPOTS = [
     "min": 15,
     "name": ""
    }
-  }
+  },
+  "camp": "both"
  },
  {
   "id": 47,
@@ -1716,7 +1762,8 @@ window.SPOTS = [
     "min": 9,
     "name": ""
    }
-  }
+  },
+  "camp": "both"
  },
  {
   "id": 48,
@@ -1757,7 +1804,8 @@ window.SPOTS = [
     "min": 67,
     "name": "Laurentic Bar"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 49,
@@ -1793,7 +1841,8 @@ window.SPOTS = [
     "min": 89,
     "name": "Byrnes Foodstore"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 50,
@@ -1834,7 +1883,8 @@ window.SPOTS = [
     "min": 31,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 51,
@@ -1865,7 +1915,8 @@ window.SPOTS = [
     "min": 84,
     "name": "Biddy's o'Barnes"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 52,
@@ -1906,7 +1957,8 @@ window.SPOTS = [
     "min": 75,
     "name": "John the miner's"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 53,
@@ -1947,7 +1999,8 @@ window.SPOTS = [
     "min": 92,
     "name": "Today Local"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 54,
@@ -1993,7 +2046,8 @@ window.SPOTS = [
     "min": 52,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 55,
@@ -2039,7 +2093,8 @@ window.SPOTS = [
     "min": 2,
     "name": "Slieve Bloom Way Car Park"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 56,
@@ -2090,7 +2145,8 @@ window.SPOTS = [
     "min": 35,
     "name": "Mullicháin Cafe"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 57,
@@ -2126,7 +2182,8 @@ window.SPOTS = [
     "min": 90,
     "name": "Riverbank Restaurant"
    }
-  }
+  },
+  "camp": "van"
  },
  {
   "id": 58,
@@ -2167,7 +2224,8 @@ window.SPOTS = [
     "min": 1,
     "name": ""
    }
-  }
+  },
+  "camp": "van"
  },
  {
   "id": 59,
@@ -2213,7 +2271,8 @@ window.SPOTS = [
     "min": 4,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 60,
@@ -2254,7 +2313,8 @@ window.SPOTS = [
     "min": 1,
     "name": ""
    }
-  }
+  },
+  "camp": "both"
  },
  {
   "id": 61,
@@ -2300,7 +2360,8 @@ window.SPOTS = [
     "min": 30,
     "name": ""
    }
-  }
+  },
+  "camp": "van"
  },
  {
   "id": 62,
@@ -2352,7 +2413,8 @@ window.SPOTS = [
     "min": 10,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 63,
@@ -2403,7 +2465,8 @@ window.SPOTS = [
     "min": 45,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 64,
@@ -2439,7 +2502,8 @@ window.SPOTS = [
     "min": 34,
     "name": "Droumnea"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 65,
@@ -2490,7 +2554,8 @@ window.SPOTS = [
     "min": 85,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 66,
@@ -2526,7 +2591,8 @@ window.SPOTS = [
     "min": 8,
     "name": "Cronin's Cafe"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 67,
@@ -2572,7 +2638,8 @@ window.SPOTS = [
     "min": 50,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 68,
@@ -2623,7 +2690,8 @@ window.SPOTS = [
     "min": 2,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 69,
@@ -2665,7 +2733,8 @@ window.SPOTS = [
     "min": 32,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 70,
@@ -2701,7 +2770,8 @@ window.SPOTS = [
     "min": 54,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 71,
@@ -2742,7 +2812,8 @@ window.SPOTS = [
     "min": 15,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 72,
@@ -2783,7 +2854,8 @@ window.SPOTS = [
     "min": 54,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 73,
@@ -2829,7 +2901,8 @@ window.SPOTS = [
     "min": 66,
     "name": "Spar"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 74,
@@ -2860,7 +2933,8 @@ window.SPOTS = [
     "min": 10,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 75,
@@ -2892,7 +2966,8 @@ window.SPOTS = [
     "min": 84,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 76,
@@ -2928,7 +3003,8 @@ window.SPOTS = [
     "min": 5,
     "name": "Ballyronan Chinese Takeaway"
    }
-  }
+  },
+  "camp": "tent"
  },
  {
   "id": 77,
@@ -2969,6 +3045,7 @@ window.SPOTS = [
     "min": 4,
     "name": ""
    }
-  }
+  },
+  "camp": "tent"
  }
 ];
