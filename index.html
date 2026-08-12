@@ -25,6 +25,9 @@
     </div>
   </div>
   <div class="topbar-actions">
+    <button id="suggestBtn" class="chip chip-icon" title="Suggest a spot">
+      <span class="material-symbols-rounded">add_location_alt</span>
+    </button>
     <button id="favesToggle" class="chip chip-fave" aria-pressed="false" title="Show favourites">
       <span class="material-symbols-rounded heart">favorite</span> <span id="favesCount">0</span>
     </button>
@@ -101,6 +104,68 @@
   <div class="sheet-handle"></div>
   <div class="sheet-body" id="sheetBody"></div>
 </article>
+
+<!-- Suggest a spot -->
+<div class="sheet-backdrop" id="suggestBackdrop" hidden></div>
+<article class="sheet" id="suggestSheet" hidden aria-modal="true" role="dialog">
+  <div class="sheet-handle"></div>
+  <div class="sheet-body">
+    <h2><span class="material-symbols-rounded">add_location_alt</span> Suggest a spot</h2>
+    <p class="suggest-intro">Know a great wild camping spot? Share it and it'll be
+       reviewed before joining the map. Only share places that can handle visitors —
+       and never a fragile secret spot.</p>
+    <form id="suggestForm">
+      <label class="field">Spot name *
+        <input type="text" id="sgName" required maxlength="80" placeholder="e.g. Lough Example shore">
+      </label>
+      <div class="field-row">
+        <label class="field">County *
+          <select id="sgCounty" required></select>
+        </label>
+        <label class="field">Type *
+          <select id="sgType" required>
+            <option value="beach">🏖️ Beach</option>
+            <option value="lake">🌊 Lough</option>
+            <option value="mountain">⛰️ Mountain</option>
+            <option value="forest">🌲 Forest</option>
+            <option value="coast">🌅 Coast</option>
+            <option value="island">🏝️ Island</option>
+            <option value="trail">🥾 Trail</option>
+            <option value="river">💧 River</option>
+          </select>
+        </label>
+      </div>
+      <div class="field">
+        <span>Location</span>
+        <div class="pin-row">
+          <button type="button" class="btn btn-secondary" id="sgPickBtn">
+            <span class="material-symbols-rounded">pin_drop</span> Pick on map
+          </button>
+          <span id="sgCoords" class="sg-coords">No pin dropped yet</span>
+        </div>
+      </div>
+      <label class="field">Tell us about it *
+        <textarea id="sgDesc" required rows="3" maxlength="500"
+          placeholder="What's it like? How do you get there? Parking, walk-in distance, water, the nearest pub…"></textarea>
+      </label>
+      <div class="btn-row">
+        <button type="submit" class="btn btn-primary" data-via="github">
+          <span class="material-symbols-rounded">bug_report</span> Submit on GitHub
+        </button>
+        <button type="submit" class="btn btn-secondary" data-via="email">
+          <span class="material-symbols-rounded">mail</span> Send by email
+        </button>
+      </div>
+      <p class="photo-note">GitHub opens a pre-filled issue (needs a GitHub account);
+         email opens your mail app. Either way a human reviews it before it goes live.</p>
+    </form>
+  </div>
+</article>
+<div class="pick-toast" id="pickToast" hidden>
+  <span class="material-symbols-rounded">pin_drop</span>
+  Tap the map where the spot is
+  <button class="chip" id="pickCancel">Cancel</button>
+</div>
 
 <!-- Fullscreen photo gallery -->
 <div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Photo gallery">

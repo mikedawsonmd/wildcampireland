@@ -229,6 +229,8 @@
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && document.getElementById('lightbox').hidden) {
       closeSheet(); closeAbout();
+      document.getElementById('suggestSheet').hidden = true;
+      document.getElementById('suggestBackdrop').hidden = true;
     }
   });
 
@@ -316,6 +318,104 @@
   document.getElementById('aboutBtn').addEventListener('click', openAbout);
   document.getElementById('aboutClose').addEventListener('click', closeAbout);
   aboutBackdrop.addEventListener('click', closeAbout);
+
+  // ---------- suggest a spot ----------
+  const suggestSheet = document.getElementById('suggestSheet');
+  const suggestBackdrop = document.getElementById('suggestBackdrop');
+  const pickToast = document.getElementById('pickToast');
+  let picking = false;
+  let pickedLatLng = null;
+  let pickMarker = null;
+
+  const COUNTIES = ['Antrim','Armagh','Carlow','Cavan','Clare','Cork','Derry','Donegal',
+    'Down','Dublin','Fermanagh','Galway','Kerry','Kildare','Kilkenny','Laois','Leitrim',
+    'Limerick','Longford','Louth','Mayo','Meath','Monaghan','Offaly','Roscommon','Sligo',
+    'Tipperary','Tyrone','Waterford','Westmeath','Wexford','Wicklow'];
+  const sgCounty = document.getElementById('sgCounty');
+  COUNTIES.forEach(c => {
+    const o = document.createElement('option');
+    o.value = c; o.textContent = 'Co. ' + c;
+    sgCounty.appendChild(o);
+  });
+
+  function openSuggest() {
+    suggestSheet.hidden = false; suggestBackdrop.hidden = false;
+  }
+  function closeSuggest() {
+    suggestSheet.hidden = true; suggestBackdrop.hidden = true;
+  }
+  document.getElementById('suggestBtn').addEventListener('click', openSuggest);
+  suggestBackdrop.addEventListener('click', closeSuggest);
+
+  document.getElementById('sgPickBtn').addEventListener('click', () => {
+    picking = true;
+    closeSuggest();
+    setView('map');
+    pickToast.hidden = false;
+    document.getElementById('map').style.cursor = 'crosshair';
+  });
+  function endPicking() {
+    picking = false;
+    pickToast.hidden = true;
+    document.getElementById('map').style.cursor = '';
+  }
+  document.getElementById('pickCancel').addEventListener('click', () => {
+    endPicking(); openSuggest();
+  });
+  map.on('click', (e) => {
+    if (!picking) return;
+    pickedLatLng = e.latlng;
+    if (pickMarker) pickMarker.remove();
+    pickMarker = L.marker(e.latlng, {
+      icon: L.divIcon({
+        className: 'tent-marker picking',
+        html: '<div class="pin"><span>📍</span></div>',
+        iconSize: [34, 34], iconAnchor: [17, 32],
+      }),
+    }).addTo(map);
+    document.getElementById('sgCoords').textContent =
+      `${e.latlng.lat.toFixed(5)}, ${e.latlng.lng.toFixed(5)}`;
+    endPicking();
+    openSuggest();
+  });
+
+  document.getElementById('suggestForm').addEventListener('submit', (e) => {
+    e.preventDefault();
+    const via = e.submitter?.dataset.via || 'github';
+    const name = document.getElementById('sgName').value.trim();
+    const county = sgCounty.value;
+    const typeSel = document.getElementById('sgType');
+    const typeLabel = typeSel.options[typeSel.selectedIndex].textContent;
+    const desc = document.getElementById('sgDesc').value.trim();
+    const coords = pickedLatLng
+      ? `${pickedLatLng.lat.toFixed(5)}, ${pickedLatLng.lng.toFixed(5)}`
+      : 'not provided';
+    const mapLink = pickedLatLng
+      ? `https://www.openstreetmap.org/?mlat=${pickedLatLng.lat.toFixed(5)}&mlon=${pickedLatLng.lng.toFixed(5)}#map=15/${pickedLatLng.lat.toFixed(5)}/${pickedLatLng.lng.toFixed(5)}`
+      : '';
+    const body = [
+      `**Spot name:** ${name}`,
+      `**County:** ${county}`,
+      `**Type:** ${typeLabel}`,
+      `**Coordinates:** ${coords}${mapLink ? `\n**Map:** ${mapLink}` : ''}`,
+      '',
+      '**Description / access / facilities:**',
+      desc,
+      '',
+      '_Submitted via the WildCamp Ireland suggest-a-spot form._',
+    ].join('\n');
+    if (via === 'github') {
+      const url = 'https://github.com/mikedawsonmd/wildcampireland/issues/new' +
+        '?labels=spot-submission&title=' + encodeURIComponent(`New spot: ${name} (Co. ${county})`) +
+        '&body=' + encodeURIComponent(body);
+      window.open(url, '_blank', 'noopener');
+    } else {
+      const url = 'mailto:mikedawsonmd@protonmail.com' +
+        '?subject=' + encodeURIComponent(`WildCamp Ireland — new spot: ${name} (Co. ${county})`) +
+        '&body=' + encodeURIComponent(body.replace(/\*\*/g, ''));
+      window.location.href = url;
+    }
+  });
 
   // ---------- filter wiring ----------
   document.querySelectorAll('.type-chip').forEach(chip => {
